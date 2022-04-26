@@ -1,0 +1,19 @@
+         intigrate jquery and javascript to ionic angular
+	|
+npm i jquery
+       |
+"styles": [
+              "node_modules/bootstrap/dist/css/bootstrap.min.css",
+              "src/theme/variables.scss",
+              "src/global.scss"
+            ],
+"scripts": [
+              "node_modules/jquery/dist/jquery.min.js",//add this line
+              "node_modules/bootstrap/dist/js/bootstrap.min.js",
+              "assets/javascript.index.js",
+            ], 
+
+
+intigratejavascriptinangular.ts
+	|
+declare const sampleintigratejavascriptmethod:any

@@ -1,0 +1,13 @@
+          intigrate speechrecognation in ionic angular:
+	|
+ionic cordova plugin add cordova-plugin-speechrecognition
+	|
+npm install --save @ionic-native/speech-recognition
+	|
+npm install --save rxjs-compat
+	|
+ionic cordova plugin add cordova-admob
+	|
+npm install --save @ionic-native/admob
+	|
+npm i @ionic-native/core

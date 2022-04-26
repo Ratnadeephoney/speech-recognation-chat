@@ -1,0 +1,64 @@
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+<!-- <ion-header>
+  <ion-toolbar>
+    <ion-title>profile</ion-title>
+  </ion-toolbar>
+</ion-header> -->
+
+<!-- <ion-content > -->
+<div id="bg">
+  <!-- <div class="row">
+    <div class="col-2">
+      <ion-back-button  defaultHref="/" id="backbtn" ></ion-back-button>
+    </div>
+    <div class="col-10">
+      <h2>Profile</h2>
+    </div>
+  </div> -->
+  <div class="row">
+    <div class="col-2">
+      <ion-back-button  defaultHref="/" id="backbtn" >back</ion-back-button>
+    </div>
+  </div>
+<div class="row"> 
+  <h2 class="col">Profile</h2>
+</div>
+  
+<div *ngFor="let p of userProfileInfo">
+  <div style="text-align:center; margin-top:10px; ">
+    <img id="profile_img" style="
+    width:150px; height:150px;
+    border:2px solid grey;
+    border-radius:100px;
+    opacity:100;
+    " 
+    [src]="p.profile"><br><br>
+    <div class="row">
+      <div (click)="viewFollowers()" class="col-4">
+        followers
+      </div>
+      <div (click)="viewFollowing()" class="col-4">
+        following
+      </div>
+      <div (click)="viewchat(p.id,p.name,p.profile,p.one_to_one_cid,p.message_sender)" class="col-4">
+        <img id="chatimg" src="assets/icon/chat.svg"> 
+      </div>
+    </div>
+  </div>
+
+  <h1>{{p.name}}</h1>
+  <p>nickname  :  {{p.nickname}}</p>
+  <p>dob  :  {{p.dob}}</p>
+  <p>email  :  {{p.email}}</p>
+  <p>proffission  :  {{p.proffission}}</p>
+  <p>status  :  {{p.status}}</p>
+
+  <!-- <button type="button" (click)="de()">speech</button> -->
+</div>
+</div>
+
+<!-- </ion-content> -->

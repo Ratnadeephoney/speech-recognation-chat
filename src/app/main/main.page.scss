@@ -1,0 +1,77 @@
+#chatuserfor{
+    border:1px solid grey; margin-top:5px; width:99%; height:70px; background-color:grey;
+    border-radius:5px; border:1px solid grey; text-align:center;
+  }
+  #chatuseravatar{
+    margin:5px 10px 0px 10px; border-radius:100px; 
+    border:1px solid white; width:60px; height:60px; background-color:white;
+    padding:20px;
+  }
+
+  #reqstatus button{
+          color:white; width:72px;
+          border-radius:10px;
+          font-size: 12px;
+          margin-left:-10px;
+          background-color:DarkSlateGrey;  
+          height:30px;
+  }
+
+  #searchuserview{
+    border:1px solid grey; margin-top:5px; width:99%; height:70px; background-color:grey;
+    border-radius:5px; border:1px solid grey; text-align:center;
+
+  }
+
+  #chatmic
+  {
+    margin-top:13px; margin-left:20px; width:25px; height:25px;
+  }
+
+  #micfill{
+    width:25px;
+    height:25px;
+    color:green;
+    text-align:center;
+    //margin-left:3px;
+    //filter: hue-rotate(90deg);
+  }
+
+  #editprofile{
+      background-color: blue;
+      color:white;
+  }
+
+  #bg{
+    background-color:whitesmoke;
+
+  }
+
+  #profile_img{
+    width:150px; height:150px;
+    border:2px solid grey;
+    border-radius:100px;
+    opacity:1000;
+  }
+
+  label{
+      color:chocolate;
+      margin-top: 15px;
+  }
+
+  .col-4{
+      color:black;
+  }
+
+  #chattingusers{
+      background-color: gray;
+      border:2px solid grey;
+      border-radius:10px;
+      width:98%;
+      height:55px;
+      margin-top:2px;
+  }
+
+  #nmmgs{
+    margin-left:-20px;
+  }

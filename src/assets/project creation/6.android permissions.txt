@@ -1,0 +1,64 @@
+android permissios:
+
+camera:
+https://forum.ionicframework.com/t/doesnt-asks-for-permissions-on-initial-load/189768/5
+
+Beware that this plugin is based on AndroidX, so you have to install the following files:
+
+ionic cordova plugin add cordova-plugin-androidx
+ionic cordova plugin add cordova-plugin-androidx-adapter
+and then you can install the diagnostic plugin files:
+
+ionic cordova plugin add cordova.plugins.diagnostic
+npm install @ionic-native/diagnostic
+Also remember to add Diagnostic to the providers list on app.module:
+
+import { Diagnostic } from '@ionic-native/diagnostic/ngx';
+...
+providers: [..., Diagnostic]
+
+To check if a permission is granted:
+
+this.diagnostic.getPermissionAuthorizationStatus(this.diagnostic.permission.CAMERA)
+    .then((status) => {
+        switch(status){
+            case this.diagnostic.permissionStatus.GRANTED:
+                console.log("Permission granted to use the camera");
+                break;
+            case this.diagnostic.permissionStatus.NOT_REQUESTED:
+                console.log("Permission to use the camera has not been requested yet");
+                break;
+            case this.diagnostic.permissionStatus.DENIED:
+                console.log("Permission denied to use the camera - ask again?");
+                break;
+            case this.diagnostic.permissionStatus.DENIED_ALWAYS:
+                console.log("Permission permanently denied to use the camera - guess we won't be using it then!");
+                break;
+        }
+    })
+    .catch((error) => {
+        console.error("The following error occurred: "+error);
+    });
+
+to request a permission:
+
+this.diagnostic.requestRuntimePermission(this.diagnostic.permission.CAMERA)
+    .then((status) => {
+        switch(status){
+            case this.diagnostic.permissionStatus.GRANTED:
+                console.log("Permission granted to use the camera");
+                break;
+            case this.diagnostic.permissionStatus.NOT_REQUESTED:
+                console.log("Permission to use the camera has not been requested yet");
+                break;
+            case this.diagnostic.permissionStatus.DENIED:
+                console.log("Permission denied to use the camera - ask again?");
+                break;
+            case this.diagnostic.permissionStatus.DENIED_ALWAYS:
+                console.log("Permission permanently denied to use the camera - guess we won't be using it then!");
+                break;
+        }
+    })
+    .catch((error) => {
+        console.error("The following error occurred: "+error);
+    });

@@ -1,0 +1,41 @@
+h1{
+    color:greenyellow;
+    text-align:center;
+}
+
+p{
+    color:whitesmoke;
+    margin-left:20px;
+    font-size: 15px;
+}
+
+h2{
+    color:orange;
+    text-align: center;
+    margin-top:-35px;
+    //float:center;
+   // margin-left:-20px;
+    //display: flex; justify-content: flex-middle;
+}
+
+#bg{
+    background-color:DarkSlateGrey;
+    height: 100%;
+}
+.col-4{
+    color:ghostwhite;
+    font-size: 16px;
+}
+
+#chatimg{
+    width:30px;
+    height:25px;
+    opacity:100;
+    filter: brightness(0) invert(1);
+}
+
+#backbtn{
+float:left;
+//display: flex; justify-content: flex-start;
+color:whitesmoke;
+}

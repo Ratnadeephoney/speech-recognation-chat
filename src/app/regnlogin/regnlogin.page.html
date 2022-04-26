@@ -1,0 +1,63 @@
+<!-- <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+   -->
+   <ion-header>
+    <ion-toolbar>
+      <!-- <ion-title>regnlogin</ion-title> -->
+      <ion-title style="text-align:center; color:blue;">{{heading}}</ion-title>
+    </ion-toolbar>
+  </ion-header>
+  
+  <ion-content>
+    <div id="bg">
+    <div *ngIf="reglog" class="container">
+      <br>
+      <form action="/action_page.php">
+        
+          <div class="form-group">
+            <label for="pwd">Name:</label>
+            <input type="text" class="form-control" #name id="pwd" placeholder="Enter name" name="name">
+          </div>
+          <div class="form-group">
+            <label for="pwd">Phone:</label>
+            <input type="tel" class="form-control" #phone id="pwd" placeholder="Enter phone" name="phone">
+          </div>
+        <div class="form-group">
+          <label for="email">Email:</label>
+          <input type="email" class="form-control" #email id="email" placeholder="Enter email" name="email">
+        </div>
+        <div class="form-group">
+          <label for="pwd">Password:</label>
+          <input type="password" class="form-control" #password id="pwd" placeholder="Enter password" name="pwd">
+        </div>
+        <div id="midbtn">
+          <button type="submit" class="btn btn-primary" (click)="signUp_registration(name.value,phone.value,email.value,password.value)">registration</button>
+        </div>
+      
+      </form>
+      <p style="margin-top:5px; color:black;">if you already have an account? <span (click)="signin()" style="color:red;">SignIn</span></p>
+    </div>
+  
+    <div *ngIf="!reglog" class="container">
+      <br>
+      <form action="/action_page.php">
+        <div class="form-group">
+          <label for="email">Email:</label>
+          <input type="text" class="form-control" #email id="email" placeholder="email or phone" name="email">
+        </div>
+        <div class="form-group">
+          <label for="pwd">Password:</label>
+          <input type="password" class="form-control" #password id="pwd" placeholder="Enter password" name="pwd">
+        </div>
+        <div id="midbtn">
+          <button type="submit" class="btn btn-primary" (click)="signIn(email.value,password.value)">Sign In</button>
+        </div>
+      </form>
+      <p style="margin-top:5px; color:black;">if you dont have an account? <span (click)="reg()" style="color:green;">registration</span></p>
+    </div>
+  </div>
+  </ion-content>
+  

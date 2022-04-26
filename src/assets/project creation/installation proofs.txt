@@ -1,0 +1,1125 @@
+Microsoft Windows [Version 10.0.19044.1645]
+(c) Microsoft Corporation. All rights reserved.
+
+C:\angular and react\angular\sproudKnowledge\SproudKnowledge_Chat\vasavi_college_final_year_project\project\master>ionic start finalyearprojectforvasavistudents
+
+Let's pick the perfect starter template!
+
+Starter templates are ready-to-go Ionic apps that come packed with everything you need to build your app. To bypass this
+prompt next time, supply template, the second argument to ionic start.
+
+? Starter template: blank
+√ Preparing directory .\finalyearprojectforvasavistudents - done!
+√ Downloading and extracting blank starter - done!
+
+Installing dependencies may take several minutes.
+
+  ──────────────────────────────────────────────────────────────────────
+
+      Ionic Enterprise, platform and solutions for teams by Ionic
+
+                  Powerful library of native APIs
+                 A supercharged platform for teams
+       Bring your company's designs to life with Design Systems
+
+         Learn more: https://ion.link/enterprise
+
+  ──────────────────────────────────────────────────────────────────────
+
+
+> npm.cmd i
+npm WARN deprecated request@2.88.2: request has been deprecated, see https://github.com/request/request/issues/3142
+npm WARN deprecated source-map-resolve@0.6.0: See https://github.com/lydell/source-map-resolve#deprecated
+npm WARN deprecated har-validator@5.1.5: this library is no longer supported
+npm WARN deprecated uuid@3.4.0: Please upgrade  to version 7 or higher.  Older versions may use Math.random() in certain circumstances, which is known to be problematic.  See https://v8.dev/blog/math-random for details.
+
+> @parcel/watcher@2.0.4 install C:\angular and react\angular\sproudKnowledge\SproudKnowledge_Chat\vasavi_college_final_year_project\project\master\finalyearprojectforvasavistudents\node_modules\@parcel\watcher
+> node-gyp-build
+
+
+> core-js@3.20.3 postinstall C:\angular and react\angular\sproudKnowledge\SproudKnowledge_Chat\vasavi_college_final_year_project\project\master\finalyearprojectforvasavistudents\node_modules\core-js
+> node -e "try{require('./postinstall')}catch(e){}"
+
+Thank you for using core-js ( https://github.com/zloirock/core-js ) for polyfilling JavaScript standard library!
+
+The project needs your help! Please consider supporting of core-js:
+> https://opencollective.com/core-js
+> https://patreon.com/zloirock
+> https://paypal.me/zloirock
+> bitcoin: bc1qlea7544qtsmj2rayg0lthvza9fau63ux0fstcz
+
+Also, the author of core-js ( https://github.com/zloirock ) is looking for a good job -)
+
+
+> core-js-pure@3.22.2 postinstall C:\angular and react\angular\sproudKnowledge\SproudKnowledge_Chat\vasavi_college_final_year_project\project\master\finalyearprojectforvasavistudents\node_modules\core-js-pure
+> node -e "try{require('./postinstall')}catch(e){}"
+
+Thank you for using core-js ( https://github.com/zloirock/core-js ) for polyfilling JavaScript standard library!
+
+The project needs your help! Please consider supporting of core-js:
+> https://opencollective.com/core-js
+> https://patreon.com/zloirock
+> bitcoin: bc1qlea7544qtsmj2rayg0lthvza9fau63ux0fstcz
+
+Also, the author of core-js ( https://github.com/zloirock ) is looking for a good job -)
+
+
+> esbuild@0.14.22 postinstall C:\angular and react\angular\sproudKnowledge\SproudKnowledge_Chat\vasavi_college_final_year_project\project\master\finalyearprojectforvasavistudents\node_modules\@angular-devkit\build-angular\node_modules\esbuild
+> node install.js
+
+
+> nx@14.0.2 postinstall C:\angular and react\angular\sproudKnowledge\SproudKnowledge_Chat\vasavi_college_final_year_project\project\master\finalyearprojectforvasavistudents\node_modules\@nrwl\cli\node_modules\nx
+> node ./bin/init
+
+
+> @angular/cli@13.2.6 postinstall C:\angular and react\angular\sproudKnowledge\SproudKnowledge_Chat\vasavi_college_final_year_project\project\master\finalyearprojectforvasavistudents\node_modules\@angular\cli
+> node ./bin/postinstall/script.js
+
+npm notice created a lockfile as package-lock.json. You should commit this file.
+npm WARN notsup Unsupported engine for @typescript-eslint/eslint-plugin@5.3.0: wanted: {"node":"^12.22.0 || ^14.17.0 || >=16.0.0"} (current: {"node":"12.20.0","npm":"6.14.8"})
+npm WARN notsup Not compatible with your version of node/npm: @typescript-eslint/eslint-plugin@5.3.0
+npm WARN notsup Unsupported engine for @typescript-eslint/parser@5.3.0: wanted: {"node":"^12.22.0 || ^14.17.0 || >=16.0.0"} (current: {"node":"12.20.0","npm":"6.14.8"})
+npm WARN notsup Not compatible with your version of node/npm: @typescript-eslint/parser@5.3.0
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: esbuild-freebsd-64@0.14.22 (node_modules\@angular-devkit\build-angular\node_modules\esbuild\node_modules\esbuild-freebsd-64):
+npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for esbuild-freebsd-64@0.14.22: wanted {"os":"freebsd","arch":"x64"} (current: {"os":"win32","arch":"x64"})
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: esbuild-darwin-arm64@0.14.22 (node_modules\@angular-devkit\build-angular\node_modules\esbuild\node_modules\esbuild-darwin-arm64):
+npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for esbuild-darwin-arm64@0.14.22: wanted {"os":"darwin","arch":"arm64"} (current: {"os":"win32","arch":"x64"})
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: esbuild-linux-arm@0.14.22 (node_modules\@angular-devkit\build-angular\node_modules\esbuild\node_modules\esbuild-linux-arm):
+npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for esbuild-linux-arm@0.14.22: wanted {"os":"linux","arch":"arm"} (current: {"os":"win32","arch":"x64"})
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: esbuild-linux-64@0.14.22 (node_modules\@angular-devkit\build-angular\node_modules\esbuild\node_modules\esbuild-linux-64):
+npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for esbuild-linux-64@0.14.22: wanted {"os":"linux","arch":"x64"} (current: {"os":"win32","arch":"x64"})
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: esbuild-android-arm64@0.14.22 (node_modules\@angular-devkit\build-angular\node_modules\esbuild\node_modules\esbuild-android-arm64):
+npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for esbuild-android-arm64@0.14.22: wanted {"os":"android","arch":"arm64"} (current: {"os":"win32","arch":"x64"})
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: esbuild-linux-mips64le@0.14.22 (node_modules\@angular-devkit\build-angular\node_modules\esbuild\node_modules\esbuild-linux-mips64le):
+npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for esbuild-linux-mips64le@0.14.22: wanted {"os":"linux","arch":"mips64el"} (current: {"os":"win32","arch":"x64"})
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: esbuild-linux-arm64@0.14.22 (node_modules\@angular-devkit\build-angular\node_modules\esbuild\node_modules\esbuild-linux-arm64):
+npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for esbuild-linux-arm64@0.14.22: wanted {"os":"linux","arch":"arm64"} (current: {"os":"win32","arch":"x64"})
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: esbuild-linux-32@0.14.22 (node_modules\@angular-devkit\build-angular\node_modules\esbuild\node_modules\esbuild-linux-32):
+npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for esbuild-linux-32@0.14.22: wanted {"os":"linux","arch":"ia32"} (current: {"os":"win32","arch":"x64"})
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: esbuild-darwin-64@0.14.22 (node_modules\@angular-devkit\build-angular\node_modules\esbuild\node_modules\esbuild-darwin-64):
+npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for esbuild-darwin-64@0.14.22: wanted {"os":"darwin","arch":"x64"} (current: {"os":"win32","arch":"x64"})
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: esbuild-freebsd-arm64@0.14.22 (node_modules\@angular-devkit\build-angular\node_modules\esbuild\node_modules\esbuild-freebsd-arm64):
+npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for esbuild-freebsd-arm64@0.14.22: wanted {"os":"freebsd","arch":"arm64"} (current: {"os":"win32","arch":"x64"})
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: esbuild-linux-riscv64@0.14.22 (node_modules\@angular-devkit\build-angular\node_modules\esbuild\node_modules\esbuild-linux-riscv64):
+npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for esbuild-linux-riscv64@0.14.22: wanted {"os":"linux","arch":"riscv64"} (current: {"os":"win32","arch":"x64"})
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: esbuild-linux-s390x@0.14.22 (node_modules\@angular-devkit\build-angular\node_modules\esbuild\node_modules\esbuild-linux-s390x):
+npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for esbuild-linux-s390x@0.14.22: wanted {"os":"linux","arch":"s390x"} (current: {"os":"win32","arch":"x64"})
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: esbuild-linux-ppc64le@0.14.22 (node_modules\@angular-devkit\build-angular\node_modules\esbuild\node_modules\esbuild-linux-ppc64le):
+npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for esbuild-linux-ppc64le@0.14.22: wanted {"os":"linux","arch":"ppc64"} (current: {"os":"win32","arch":"x64"})
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: esbuild-openbsd-64@0.14.22 (node_modules\@angular-devkit\build-angular\node_modules\esbuild\node_modules\esbuild-openbsd-64):
+npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for esbuild-openbsd-64@0.14.22: wanted {"os":"openbsd","arch":"x64"} (current: {"os":"win32","arch":"x64"})
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: esbuild-sunos-64@0.14.22 (node_modules\@angular-devkit\build-angular\node_modules\esbuild\node_modules\esbuild-sunos-64):
+npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for esbuild-sunos-64@0.14.22: wanted {"os":"sunos","arch":"x64"} (current: {"os":"win32","arch":"x64"})
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: esbuild-netbsd-64@0.14.22 (node_modules\@angular-devkit\build-angular\node_modules\esbuild\node_modules\esbuild-netbsd-64):
+npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for esbuild-netbsd-64@0.14.22: wanted {"os":"netbsd","arch":"x64"} (current: {"os":"win32","arch":"x64"})
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: esbuild-windows-32@0.14.22 (node_modules\@angular-devkit\build-angular\node_modules\esbuild\node_modules\esbuild-windows-32):
+npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for esbuild-windows-32@0.14.22: wanted {"os":"win32","arch":"ia32"} (current: {"os":"win32","arch":"x64"})
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: esbuild-windows-arm64@0.14.22 (node_modules\@angular-devkit\build-angular\node_modules\esbuild\node_modules\esbuild-windows-arm64):
+npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for esbuild-windows-arm64@0.14.22: wanted {"os":"win32","arch":"arm64"} (current: {"os":"win32","arch":"x64"})
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: nice-napi@^1.0.2 (node_modules\piscina\node_modules\nice-napi):
+npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for nice-napi@1.0.2: wanted {"os":"!win32","arch":"any"} (current: {"os":"win32","arch":"x64"})
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: fsevents@~2.3.2 (node_modules\chokidar\node_modules\fsevents):
+npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for fsevents@2.3.2: wanted {"os":"darwin","arch":"any"} (current: {"os":"win32","arch":"x64"})
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: @swc/core-linux-x64-gnu@1.2.171 (node_modules\@swc\core\node_modules\@swc\core-linux-x64-gnu):
+npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for @swc/core-linux-x64-gnu@1.2.171: wanted {"os":"linux","arch":"x64"} (current: {"os":"win32","arch":"x64"})
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: @swc/core-linux-x64-musl@1.2.171 (node_modules\@swc\core\node_modules\@swc\core-linux-x64-musl):
+npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for @swc/core-linux-x64-musl@1.2.171: wanted {"os":"linux","arch":"x64"} (current: {"os":"win32","arch":"x64"})
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: @swc/core-darwin-x64@1.2.171 (node_modules\@swc\core\node_modules\@swc\core-darwin-x64):
+npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for @swc/core-darwin-x64@1.2.171: wanted {"os":"darwin","arch":"x64"} (current: {"os":"win32","arch":"x64"})
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: @swc/core-linux-arm64-gnu@1.2.171 (node_modules\@swc\core\node_modules\@swc\core-linux-arm64-gnu):
+npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for @swc/core-linux-arm64-gnu@1.2.171: wanted {"os":"linux","arch":"arm64"} (current: {"os":"win32","arch":"x64"})
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: @swc/core-win32-ia32-msvc@1.2.171 (node_modules\@swc\core\node_modules\@swc\core-win32-ia32-msvc):
+npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for @swc/core-win32-ia32-msvc@1.2.171: wanted {"os":"win32","arch":"ia32"} (current: {"os":"win32","arch":"x64"})
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: @swc/core-darwin-arm64@1.2.171 (node_modules\@swc\core\node_modules\@swc\core-darwin-arm64):
+npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for @swc/core-darwin-arm64@1.2.171: wanted {"os":"darwin","arch":"arm64"} (current: {"os":"win32","arch":"x64"})
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: @swc/core-linux-arm-gnueabihf@1.2.171 (node_modules\@swc\core\node_modules\@swc\core-linux-arm-gnueabihf):
+npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for @swc/core-linux-arm-gnueabihf@1.2.171: wanted {"os":"linux","arch":"arm"} (current: {"os":"win32","arch":"x64"})
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: @swc/core-freebsd-x64@1.2.171 (node_modules\@swc\core\node_modules\@swc\core-freebsd-x64):
+npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for @swc/core-freebsd-x64@1.2.171: wanted {"os":"freebsd","arch":"x64"} (current: {"os":"win32","arch":"x64"})
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: @swc/core-android-arm64@1.2.171 (node_modules\@swc\core\node_modules\@swc\core-android-arm64):
+npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for @swc/core-android-arm64@1.2.171: wanted {"os":"android","arch":"arm64"} (current: {"os":"win32","arch":"x64"})
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: @swc/core-linux-arm64-musl@1.2.171 (node_modules\@swc\core\node_modules\@swc\core-linux-arm64-musl):
+npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for @swc/core-linux-arm64-musl@1.2.171: wanted {"os":"linux","arch":"arm64"} (current: {"os":"win32","arch":"x64"})
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: @swc/core-win32-arm64-msvc@1.2.171 (node_modules\@swc\core\node_modules\@swc\core-win32-arm64-msvc):
+npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for @swc/core-win32-arm64-msvc@1.2.171: wanted {"os":"win32","arch":"arm64"} (current: {"os":"win32","arch":"x64"})
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: @swc/core-android-arm-eabi@1.2.171 (node_modules\@swc\core\node_modules\@swc\core-android-arm-eabi):
+npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for @swc/core-android-arm-eabi@1.2.171: wanted {"os":"android","arch":"arm"} (current: {"os":"win32","arch":"x64"})
+npm WARN notsup Unsupported engine for @typescript-eslint/experimental-utils@5.3.0: wanted: {"node":"^12.22.0 || ^14.17.0 || >=16.0.0"} (current: {"node":"12.20.0","npm":"6.14.8"})
+npm WARN notsup Not compatible with your version of node/npm: @typescript-eslint/experimental-utils@5.3.0
+npm WARN notsup Unsupported engine for @typescript-eslint/typescript-estree@5.3.0: wanted: {"node":"^12.22.0 || ^14.17.0 || >=16.0.0"} (current: {"node":"12.20.0","npm":"6.14.8"})
+npm WARN notsup Not compatible with your version of node/npm: @typescript-eslint/typescript-estree@5.3.0
+npm WARN notsup Unsupported engine for @typescript-eslint/scope-manager@5.3.0: wanted: {"node":"^12.22.0 || ^14.17.0 || >=16.0.0"} (current: {"node":"12.20.0","npm":"6.14.8"})
+npm WARN notsup Not compatible with your version of node/npm: @typescript-eslint/scope-manager@5.3.0
+npm WARN notsup Unsupported engine for @typescript-eslint/types@5.3.0: wanted: {"node":"^12.22.0 || ^14.17.0 || >=16.0.0"} (current: {"node":"12.20.0","npm":"6.14.8"})
+npm WARN notsup Not compatible with your version of node/npm: @typescript-eslint/types@5.3.0
+npm WARN notsup Unsupported engine for @typescript-eslint/visitor-keys@5.3.0: wanted: {"node":"^12.22.0 || ^14.17.0 || >=16.0.0"} (current: {"node":"12.20.0","npm":"6.14.8"})
+npm WARN notsup Not compatible with your version of node/npm: @typescript-eslint/visitor-keys@5.3.0
+npm WARN notsup Unsupported engine for eslint-visitor-keys@3.3.0: wanted: {"node":"^12.22.0 || ^14.17.0 || >=16.0.0"} (current: {"node":"12.20.0","npm":"6.14.8"})
+npm WARN notsup Not compatible with your version of node/npm: eslint-visitor-keys@3.3.0
+npm WARN ajv-keywords@3.5.2 requires a peer of ajv@^6.9.1 but none is installed. You must install peer dependencies yourself.
+
+added 1249 packages from 1418 contributors and audited 1283 packages in 869.393s
+
+147 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+
+> git.exe init
+Initialized empty Git repository in C:/angular and react/angular/sproudKnowledge/SproudKnowledge_Chat/vasavi_college_final_year_project/project/master/finalyearprojectforvasavistudents/.git/
+> git.exe add -A
+starting fsmonitor-daemon in 'C:/angular and react/angular/sproudKnowledge/SproudKnowledge_Chat/vasavi_college_final_year_project/project/master/finalyearprojectforvasavistudents'
+warning: LF will be replaced by CRLF in .browserslistrc.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in .editorconfig.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in .eslintrc.json.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in .gitignore.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in angular.json.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in e2e/protractor.conf.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in e2e/src/app.e2e-spec.ts.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in e2e/src/app.po.ts.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in e2e/tsconfig.json.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in ionic.config.json.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in karma.conf.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in package-lock.json.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in package.json.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in src/app/app-routing.module.ts.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in src/app/app.component.html.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in src/app/app.component.spec.ts.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in src/app/app.component.ts.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in src/app/app.module.ts.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in src/app/home/home-routing.module.ts.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in src/app/home/home.module.ts.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in src/app/home/home.page.html.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in src/app/home/home.page.scss.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in src/app/home/home.page.spec.ts.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in src/app/home/home.page.ts.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in src/assets/shapes.svg.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in src/environments/environment.prod.ts.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in src/environments/environment.ts.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in src/global.scss.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in src/index.html.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in src/main.ts.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in src/polyfills.ts.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in src/test.ts.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in src/theme/variables.scss.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in src/zone-flags.ts.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in tsconfig.app.json.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in tsconfig.json.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in tsconfig.spec.json.
+The file will have its original line endings in your working directory
+> git.exe commit -m "Initial commit" --no-gpg-sign
+[master (root-commit) 5ddef19] Initial commit
+ 39 files changed, 12718 insertions(+)
+ create mode 100644 .browserslistrc
+ create mode 100644 .editorconfig
+ create mode 100644 .eslintrc.json
+ create mode 100644 .gitignore
+ create mode 100644 angular.json
+ create mode 100644 e2e/protractor.conf.js
+ create mode 100644 e2e/src/app.e2e-spec.ts
+ create mode 100644 e2e/src/app.po.ts
+ create mode 100644 e2e/tsconfig.json
+ create mode 100644 ionic.config.json
+ create mode 100644 karma.conf.js
+ create mode 100644 package-lock.json
+ create mode 100644 package.json
+ create mode 100644 src/app/app-routing.module.ts
+ create mode 100644 src/app/app.component.html
+ create mode 100644 src/app/app.component.scss
+ create mode 100644 src/app/app.component.spec.ts
+ create mode 100644 src/app/app.component.ts
+ create mode 100644 src/app/app.module.ts
+ create mode 100644 src/app/home/home-routing.module.ts
+ create mode 100644 src/app/home/home.module.ts
+ create mode 100644 src/app/home/home.page.html
+ create mode 100644 src/app/home/home.page.scss
+ create mode 100644 src/app/home/home.page.spec.ts
+ create mode 100644 src/app/home/home.page.ts
+ create mode 100644 src/assets/icon/favicon.png
+ create mode 100644 src/assets/shapes.svg
+ create mode 100644 src/environments/environment.prod.ts
+ create mode 100644 src/environments/environment.ts
+ create mode 100644 src/global.scss
+ create mode 100644 src/index.html
+ create mode 100644 src/main.ts
+ create mode 100644 src/polyfills.ts
+ create mode 100644 src/test.ts
+ create mode 100644 src/theme/variables.scss
+ create mode 100644 src/zone-flags.ts
+ create mode 100644 tsconfig.app.json
+ create mode 100644 tsconfig.json
+ create mode 100644 tsconfig.spec.json
+
+[INFO] Next Steps:
+
+       - Go to your newly created project: cd .\finalyearprojectforvasavistudents
+       - Run ionic serve within the app directory to see your app
+       - Build features and components: https://ion.link/scaffolding-docs
+       - Get Ionic DevApp for easy device testing: https://ion.link/devapp
+
+C:\angular and react\angular\sproudKnowledge\SproudKnowledge_Chat\vasavi_college_final_year_project\project\master>
+C:\angular and react\angular\sproudKnowledge\SproudKnowledge_Chat\vasavi_college_final_year_project\project\master>i
+'i' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\angular and react\angular\sproudKnowledge\SproudKnowledge_Chat\vasavi_college_final_year_project\project\master>cd .\finalyearprojectforvasavistudents
+
+C:\angular and react\angular\sproudKnowledge\SproudKnowledge_Chat\vasavi_college_final_year_project\project\master\finalyearprojectforvasavistudents>ionic g page main
+> ng.cmd generate page main
+CREATE src/app/main/main-routing.module.ts (339 bytes)
+CREATE src/app/main/main.module.ts (458 bytes)
+CREATE src/app/main/main.page.html (123 bytes)
+CREATE src/app/main/main.page.spec.ts (647 bytes)
+CREATE src/app/main/main.page.ts (248 bytes)
+CREATE src/app/main/main.page.scss (0 bytes)
+UPDATE src/app/app-routing.module.ts (603 bytes)
+[OK] Generated page!
+
+C:\angular and react\angular\sproudKnowledge\SproudKnowledge_Chat\vasavi_college_final_year_project\project\master\finalyearprojectforvasavistudents>ionic g page regnlogin
+> ng.cmd generate page regnlogin
+CREATE src/app/regnlogin/regnlogin-routing.module.ts (359 bytes)
+CREATE src/app/regnlogin/regnlogin.module.ts (493 bytes)
+CREATE src/app/regnlogin/regnlogin.page.html (128 bytes)
+CREATE src/app/regnlogin/regnlogin.page.spec.ts (682 bytes)
+CREATE src/app/regnlogin/regnlogin.page.ts (268 bytes)
+CREATE src/app/regnlogin/regnlogin.page.scss (0 bytes)
+UPDATE src/app/app-routing.module.ts (732 bytes)
+[OK] Generated page!
+
+C:\angular and react\angular\sproudKnowledge\SproudKnowledge_Chat\vasavi_college_final_year_project\project\master\finalyearprojectforvasavistudents>ionic g page profile
+> ng.cmd generate page profile
+CREATE src/app/profile/profile-routing.module.ts (351 bytes)
+CREATE src/app/profile/profile.module.ts (479 bytes)
+CREATE src/app/profile/profile.page.html (126 bytes)
+CREATE src/app/profile/profile.page.spec.ts (668 bytes)
+CREATE src/app/profile/profile.page.ts (260 bytes)
+CREATE src/app/profile/profile.page.scss (0 bytes)
+UPDATE src/app/app-routing.module.ts (853 bytes)
+[OK] Generated page!
+
+C:\angular and react\angular\sproudKnowledge\SproudKnowledge_Chat\vasavi_college_final_year_project\project\master\finalyearprojectforvasavistudents>ionic g page chat
+> ng.cmd generate page chat
+CREATE src/app/chat/chat-routing.module.ts (339 bytes)
+CREATE src/app/chat/chat.module.ts (458 bytes)
+CREATE src/app/chat/chat.page.html (123 bytes)
+CREATE src/app/chat/chat.page.spec.ts (647 bytes)
+CREATE src/app/chat/chat.page.ts (248 bytes)
+CREATE src/app/chat/chat.page.scss (0 bytes)
+UPDATE src/app/app-routing.module.ts (962 bytes)
+[OK] Generated page!
+
+C:\angular and react\angular\sproudKnowledge\SproudKnowledge_Chat\vasavi_college_final_year_project\project\master\finalyearprojectforvasavistudents>ionic g page status
+> ng.cmd generate page status
+CREATE src/app/status/status-routing.module.ts (347 bytes)
+CREATE src/app/status/status.module.ts (472 bytes)
+CREATE src/app/status/status.page.html (125 bytes)
+CREATE src/app/status/status.page.spec.ts (661 bytes)
+CREATE src/app/status/status.page.ts (256 bytes)
+CREATE src/app/status/status.page.scss (0 bytes)
+UPDATE src/app/app-routing.module.ts (1079 bytes)
+[OK] Generated page!
+
+C:\angular and react\angular\sproudKnowledge\SproudKnowledge_Chat\vasavi_college_final_year_project\project\master\finalyearprojectforvasavistudents>ionic g page videocall
+> ng.cmd generate page videocall
+CREATE src/app/videocall/videocall-routing.module.ts (359 bytes)
+CREATE src/app/videocall/videocall.module.ts (493 bytes)
+CREATE src/app/videocall/videocall.page.html (128 bytes)
+CREATE src/app/videocall/videocall.page.spec.ts (682 bytes)
+CREATE src/app/videocall/videocall.page.ts (268 bytes)
+CREATE src/app/videocall/videocall.page.scss (0 bytes)
+UPDATE src/app/app-routing.module.ts (1208 bytes)
+[OK] Generated page!
+
+C:\angular and react\angular\sproudKnowledge\SproudKnowledge_Chat\vasavi_college_final_year_project\project\master\finalyearprojectforvasavistudents>ionic g page audiocall
+> ng.cmd generate page audiocall
+CREATE src/app/audiocall/audiocall-routing.module.ts (359 bytes)
+CREATE src/app/audiocall/audiocall.module.ts (493 bytes)
+CREATE src/app/audiocall/audiocall.page.html (128 bytes)
+CREATE src/app/audiocall/audiocall.page.spec.ts (682 bytes)
+CREATE src/app/audiocall/audiocall.page.ts (268 bytes)
+CREATE src/app/audiocall/audiocall.page.scss (0 bytes)
+UPDATE src/app/app-routing.module.ts (1337 bytes)
+[OK] Generated page!
+
+C:\angular and react\angular\sproudKnowledge\SproudKnowledge_Chat\vasavi_college_final_year_project\project\master\finalyearprojectforvasavistudents>ionic g service shared/middleware
+> ng.cmd generate service shared/middleware
+CREATE src/app/shared/middleware.service.spec.ts (377 bytes)
+CREATE src/app/shared/middleware.service.ts (139 bytes)
+[OK] Generated service!
+
+C:\angular and react\angular\sproudKnowledge\SproudKnowledge_Chat\vasavi_college_final_year_project\project\master\finalyearprojectforvasavistudents>ionic cordova platform add android
+> ionic integrations enable cordova
+[INFO] Downloading integration cordova
+[INFO] Copying integrations files to project
+CREATE resources
+CREATE resources\splash.png
+CREATE resources\ios
+CREATE resources\ios\splash
+CREATE resources\ios\splash\Default~iphone.png
+CREATE resources\ios\splash\Default@2x~universal~anyany.png
+CREATE resources\ios\splash\Default@2x~iphone.png
+CREATE resources\ios\splash\Default-Portrait~ipad.png
+CREATE resources\ios\splash\Default-Portrait@~ipadpro.png
+CREATE resources\ios\splash\Default-Portrait@2x~ipad.png
+CREATE resources\ios\splash\Default-Landscape~ipad.png
+CREATE resources\ios\splash\Default-Landscape@~ipadpro.png
+CREATE resources\ios\splash\Default-Landscape@2x~ipad.png
+CREATE resources\ios\splash\Default-Landscape-736h.png
+CREATE resources\ios\splash\Default-Landscape-2436h.png
+CREATE resources\ios\splash\Default-736h.png
+CREATE resources\ios\splash\Default-667h.png
+CREATE resources\ios\splash\Default-568h@2x~iphone.png
+CREATE resources\ios\splash\Default-2436h.png
+CREATE resources\ios\icon
+CREATE resources\ios\icon\icon@2x.png
+CREATE resources\ios\icon\icon.png
+CREATE resources\ios\icon\icon-small@3x.png
+CREATE resources\ios\icon\icon-small@2x.png
+CREATE resources\ios\icon\icon-small.png
+CREATE resources\ios\icon\icon-98@2x.png
+CREATE resources\ios\icon\icon-86@2x.png
+CREATE resources\ios\icon\icon-83.5@2x.png
+CREATE resources\ios\icon\icon-76@2x.png
+CREATE resources\ios\icon\icon-76.png
+CREATE resources\ios\icon\icon-72@2x.png
+CREATE resources\ios\icon\icon-72.png
+CREATE resources\ios\icon\icon-60@3x.png
+CREATE resources\ios\icon\icon-60@2x.png
+CREATE resources\ios\icon\icon-60.png
+CREATE resources\ios\icon\icon-50@2x.png
+CREATE resources\ios\icon\icon-50.png
+CREATE resources\ios\icon\icon-44@2x.png
+CREATE resources\ios\icon\icon-40@3x.png
+CREATE resources\ios\icon\icon-40@2x.png
+CREATE resources\ios\icon\icon-40.png
+CREATE resources\ios\icon\icon-29@3x.png
+CREATE resources\ios\icon\icon-29@2x.png
+CREATE resources\ios\icon\icon-29.png
+CREATE resources\ios\icon\icon-27.5@2x.png
+CREATE resources\ios\icon\icon-24@2x.png
+CREATE resources\ios\icon\icon-20@3x.png
+CREATE resources\ios\icon\icon-20@2x.png
+CREATE resources\ios\icon\icon-20.png
+CREATE resources\ios\icon\icon-1024.png
+CREATE resources\icon.png
+CREATE resources\android
+CREATE resources\android\xml
+CREATE resources\android\xml\network_security_config.xml
+CREATE resources\android\splash
+CREATE resources\android\splash\drawable-port-xxxhdpi-screen.png
+CREATE resources\android\splash\drawable-port-xxhdpi-screen.png
+CREATE resources\android\splash\drawable-port-xhdpi-screen.png
+CREATE resources\android\splash\drawable-port-mdpi-screen.png
+CREATE resources\android\splash\drawable-port-ldpi-screen.png
+CREATE resources\android\splash\drawable-port-hdpi-screen.png
+CREATE resources\android\splash\drawable-land-xxxhdpi-screen.png
+CREATE resources\android\splash\drawable-land-xxhdpi-screen.png
+CREATE resources\android\splash\drawable-land-xhdpi-screen.png
+CREATE resources\android\splash\drawable-land-mdpi-screen.png
+CREATE resources\android\splash\drawable-land-ldpi-screen.png
+CREATE resources\android\splash\drawable-land-hdpi-screen.png
+CREATE resources\android\icon
+CREATE resources\android\icon\drawable-xxxhdpi-icon.png
+CREATE resources\android\icon\drawable-xxhdpi-icon.png
+CREATE resources\android\icon\drawable-xhdpi-icon.png
+CREATE resources\android\icon\drawable-mdpi-icon.png
+CREATE resources\android\icon\drawable-ldpi-icon.png
+CREATE resources\android\icon\drawable-hdpi-icon.png
+CREATE resources\README.md
+CREATE config.xml
+[OK] Integration cordova added!
+√ Creating .\www directory for you - done!
+> cordova.cmd platform add android
+Using cordova-fetch for cordova-android@^10.1.1
+Adding android project...
+Creating Cordova project for the Android platform:
+        Path: platforms\android
+        Package: io.ionic.starter
+        Name: MyApp
+        Activity: MainActivity
+        Android target: android-30
+Subproject Path: CordovaLib
+Subproject Path: app
+Android project created with cordova-android@10.1.2
+Plugin 'cordova-plugin-statusbar' found in config.xml... Migrating it to package.json
+Plugin 'cordova-plugin-device' found in config.xml... Migrating it to package.json
+Plugin 'cordova-plugin-splashscreen' found in config.xml... Migrating it to package.json
+Plugin 'cordova-plugin-ionic-webview' found in config.xml... Migrating it to package.json
+Plugin 'cordova-plugin-ionic-keyboard' found in config.xml... Migrating it to package.json
+Discovered plugin "cordova-plugin-statusbar". Adding it to the project
+Installing "cordova-plugin-statusbar" for android
+Adding cordova-plugin-statusbar to package.json
+Discovered plugin "cordova-plugin-device". Adding it to the project
+Installing "cordova-plugin-device" for android
+Adding cordova-plugin-device to package.json
+Discovered plugin "cordova-plugin-splashscreen". Adding it to the project
+Installing "cordova-plugin-splashscreen" for android
+Adding cordova-plugin-splashscreen to package.json
+Discovered plugin "cordova-plugin-ionic-webview". Adding it to the project
+Installing "cordova-plugin-ionic-webview" for android
+Adding cordova-plugin-ionic-webview to package.json
+Discovered plugin "cordova-plugin-ionic-keyboard". Adding it to the project
+Installing "cordova-plugin-ionic-keyboard" for android
+Adding cordova-plugin-ionic-keyboard to package.json
+> ionic cordova resources android --force
+> cordova-res.cmd android
+[cordova-res] Generated 18 resources for Android
+[cordova-res] Wrote to config.xml
+
+C:\angular and react\angular\sproudKnowledge\SproudKnowledge_Chat\vasavi_college_final_year_project\project\master\finalyearprojectforvasavistudents>
+C:\angular and react\angular\sproudKnowledge\SproudKnowledge_Chat\vasavi_college_final_year_project\project\master\finalyearprojectforvasavistudents>ionic cordova resources android --force
+> cordova-res.cmd android
+[cordova-res] Generated 18 resources for Android
+[cordova-res] Wrote to config.xml
+
+C:\angular and react\angular\sproudKnowledge\SproudKnowledge_Chat\vasavi_college_final_year_project\project\master\finalyearprojectforvasavistudents>ng add @ionic/cordova-builders
+? Would you like to share anonymous usage data about this project with the Angular Team at
+Google under Google’s Privacy Policy at https://policies.google.com/privacy? For more
+details and how to change this setting, see https://angular.io/analytics. Yes
+
+Thank you for sharing anonymous usage data. Should you change your mind, the following
+command will disable this feature entirely:
+
+    ng analytics project off
+
+i Using package manager: npm
+√ Found compatible package version: @ionic/cordova-builders@6.1.0.
+√ Package information loaded.
+
+The package @ionic/cordova-builders@6.1.0 will be installed and executed.
+Would you like to proceed? Yes
+√ Package successfully installed.
+UPDATE angular.json (5338 bytes)
+
+C:\angular and react\angular\sproudKnowledge\SproudKnowledge_Chat\vasavi_college_final_year_project\project\master\finalyearprojectforvasavistudents>ionic cordova prepare android
+> ng.cmd run app:ionic-cordova-build --platform=android
+√ Browser application bundle generation complete.
+√ Copying assets complete.
+√ Index html generation complete.
+
+Initial Chunk Files                                                     | Names                      |  Raw Size
+vendor.js                                                               | vendor                     |   3.54 MB |
+polyfills.js                                                            | polyfills                  | 307.63 kB |
+cordova.js                                                              | cordova                    |  61.72 kB |
+styles.css                                                              | styles                     |  37.80 kB |
+main.js                                                                 | main                       |  16.38 kB |
+runtime.js                                                              | runtime                    |  13.96 kB |
+
+                                                                        | Initial Total              |   3.97 MB
+
+Lazy Chunk Files                                                        | Names                      |  Raw Size
+node_modules_ionic_core_dist_esm_swiper_bundle-28080340_js.js           | swiper-bundle-28080340-js  | 200.26 kB |
+node_modules_ionic_core_dist_esm_ion-datetime_3_entry_js.js             | -                          | 141.81 kB |
+node_modules_ionic_core_dist_esm_ion-item_8_entry_js.js                 | -                          |  94.18 kB |
+polyfills-core-js.js                                                    | polyfills-core-js          |  92.34 kB |
+node_modules_ionic_core_dist_esm_ion-app_8_entry_js.js                  | -                          |  78.73 kB |
+node_modules_ionic_core_dist_esm_ion-modal_entry_js.js                  | -                          |  66.47 kB |
+node_modules_ionic_core_dist_esm_ion-slide_2_entry_js.js                | -                          |  62.22 kB |
+node_modules_ionic_core_dist_esm_ion-popover_entry_js.js                | -                          |  58.68 kB |
+node_modules_ionic_core_dist_esm_ion-refresher_2_entry_js.js            | -                          |  52.65 kB |
+node_modules_ionic_core_dist_esm_ion-alert_entry_js.js                  | -                          |  47.40 kB |
+common.js                                                               | common                     |  44.30 kB |
+node_modules_ionic_core_dist_esm_ion-segment_2_entry_js.js              | -                          |  40.91 kB |
+node_modules_ionic_core_dist_esm_ion-menu_3_entry_js.js                 | -                          |  40.52 kB |
+node_modules_ionic_core_dist_esm_ion-nav_2_entry_js.js                  | -                          |  37.01 kB |
+node_modules_ionic_core_dist_esm_ion-item-option_3_entry_js.js          | -                          |  35.01 kB |
+node_modules_ionic_core_dist_esm_ion-route_4_entry_js.js                | -                          |  34.44 kB |
+node_modules_ionic_core_dist_esm_ion-searchbar_entry_js.js              | -                          |  34.39 kB |
+node_modules_ionic_core_dist_esm_ion-button_2_entry_js.js               | -                          |  33.88 kB |
+node_modules_ionic_core_dist_esm_ion-select_3_entry_js.js               | -                          |  32.58 kB |
+node_modules_ionic_core_dist_esm_ion-action-sheet_entry_js.js           | -                          |  30.79 kB |
+node_modules_ionic_core_dist_esm_ion-range_entry_js.js                  | -                          |  29.30 kB |
+node_modules_ionic_core_dist_esm_ion-accordion_2_entry_js.js            | -                          |  28.48 kB |
+node_modules_ionic_core_dist_esm_ion-fab_3_entry_js.js                  | -                          |  27.36 kB |
+node_modules_ionic_core_dist_esm_ion-toast_entry_js.js                  | -                          |  24.02 kB |
+node_modules_ionic_core_dist_esm_ion-tab-bar_2_entry_js.js              | -                          |  24.02 kB |
+node_modules_ionic_core_dist_esm_ion-input_entry_js.js                  | -                          |  23.11 kB |
+node_modules_ionic_core_dist_esm_ion-breadcrumb_2_entry_js.js           | -                          |  22.20 kB |
+node_modules_ionic_core_dist_esm_ion-progress-bar_entry_js.js           | -                          |  21.98 kB |
+node_modules_ionic_core_dist_esm_ion-picker-internal_entry_js.js        | -                          |  21.46 kB |
+node_modules_ionic_core_dist_esm_ion-virtual-scroll_entry_js.js         | -                          |  19.79 kB |
+node_modules_ionic_core_dist_esm_ion-textarea_entry_js.js               | -                          |  19.66 kB |
+polyfills-dom.js                                                        | polyfills-dom              |  19.42 kB |
+node_modules_ionic_core_dist_esm_ion-toggle_entry_js.js                 | -                          |  18.05 kB |
+node_modules_ionic_core_dist_esm_input-shims-4295668e_js.js             | input-shims-4295668e-js    |  17.57 kB |
+node_modules_ionic_core_dist_esm_ion-back-button_entry_js.js            | -                          |  17.50 kB |
+node_modules_ionic_core_dist_esm_ion-radio_2_entry_js.js                | -                          |  17.40 kB |
+node_modules_ionic_core_dist_esm_ion-loading_entry_js.js                | -                          |  15.82 kB |
+node_modules_ionic_core_dist_esm_ion-col_3_entry_js.js                  | -                          |  15.80 kB |
+node_modules_ionic_core_dist_esm_ion-card_5_entry_js.js                 | -                          |  15.63 kB |
+node_modules_ionic_core_dist_esm_ion-infinite-scroll_2_entry_js.js      | -                          |  14.47 kB |
+node_modules_ionic_core_dist_esm_ion-picker-column-internal_entry_js.js | -                          |  13.74 kB |
+node_modules_ionic_core_dist_esm_ion-reorder_2_entry_js.js              | -                          |  13.52 kB |
+node_modules_ionic_core_dist_esm_ion-checkbox_entry_js.js               | -                          |  11.45 kB |
+node_modules_ionic_core_dist_esm_ion-tab_2_entry_js.js                  | -                          |  10.62 kB |
+node_modules_ionic_core_dist_esm_ion-split-pane_entry_js.js             | -                          |  10.33 kB |
+node_modules_ionic_core_dist_esm_ion-chip_entry_js.js                   | -                          |   9.85 kB |
+node_modules_ionic_core_dist_esm_ion-spinner_entry_js.js                | -                          |   8.22 kB |
+src_app_home_home_module_ts.js                                          | home-home-module           |   7.80 kB |
+node_modules_ionic_core_dist_esm_ion-ripple-effect_entry_js.js          | -                          |   6.86 kB |
+src_app_regnlogin_regnlogin_module_ts.js                                | regnlogin-regnlogin-module |   5.94 kB |
+src_app_videocall_videocall_module_ts.js                                | videocall-videocall-module |   5.94 kB |
+src_app_audiocall_audiocall_module_ts.js                                | audiocall-audiocall-module |   5.94 kB |
+node_modules_ionic_core_dist_esm_tap-click-89bcc7cc_js.js               | tap-click-89bcc7cc-js      |   5.91 kB |
+node_modules_ionic_core_dist_esm_ion-avatar_3_entry_js.js               | -                          |   5.83 kB |
+src_app_profile_profile_module_ts.js                                    | profile-profile-module     |   5.79 kB |
+src_app_status_status_module_ts.js                                      | status-status-module       |   5.72 kB |
+src_app_main_main_module_ts.js                                          | main-main-module           |   5.58 kB |
+src_app_chat_chat_module_ts.js                                          | chat-chat-module           |   5.58 kB |
+node_modules_ionic_core_dist_esm_ion-img_entry_js.js                    | -                          |   4.54 kB |
+node_modules_ionic_core_dist_esm_ion-backdrop_entry_js.js               | -                          |   3.47 kB |
+node_modules_ionic_core_dist_esm_status-tap-e9e23d4e_js.js              | status-tap-e9e23d4e-js     |   3.11 kB |
+node_modules_ionic_core_dist_esm_ion-text_entry_js.js                   | -                          |   1.76 kB |
+
+Build at: 2022-04-26T00:54:21.590Z - Hash: 89b3f0e160e31c66 - Time: 19302ms
+> cordova.cmd prepare android
+
+C:\angular and react\angular\sproudKnowledge\SproudKnowledge_Chat\vasavi_college_final_year_project\project\master\finalyearprojectforvasavistudents>ionic cordova prepare android
+> ng.cmd run app:ionic-cordova-build --platform=android
+√ Browser application bundle generation complete.
+√ Copying assets complete.
+√ Index html generation complete.
+
+Initial Chunk Files                                                     | Names                      |  Raw Size
+vendor.js                                                               | vendor                     |   3.54 MB |
+polyfills.js                                                            | polyfills                  | 307.63 kB |
+cordova.js                                                              | cordova                    |  61.72 kB |
+styles.css                                                              | styles                     |  37.80 kB |
+main.js                                                                 | main                       |  16.38 kB |
+runtime.js                                                              | runtime                    |  13.96 kB |
+
+                                                                        | Initial Total              |   3.97 MB
+
+Lazy Chunk Files                                                        | Names                      |  Raw Size
+node_modules_ionic_core_dist_esm_swiper_bundle-28080340_js.js           | swiper-bundle-28080340-js  | 200.26 kB |
+node_modules_ionic_core_dist_esm_ion-datetime_3_entry_js.js             | -                          | 141.81 kB |
+node_modules_ionic_core_dist_esm_ion-item_8_entry_js.js                 | -                          |  94.18 kB |
+polyfills-core-js.js                                                    | polyfills-core-js          |  92.34 kB |
+node_modules_ionic_core_dist_esm_ion-app_8_entry_js.js                  | -                          |  78.73 kB |
+node_modules_ionic_core_dist_esm_ion-modal_entry_js.js                  | -                          |  66.47 kB |
+node_modules_ionic_core_dist_esm_ion-slide_2_entry_js.js                | -                          |  62.22 kB |
+node_modules_ionic_core_dist_esm_ion-popover_entry_js.js                | -                          |  58.68 kB |
+node_modules_ionic_core_dist_esm_ion-refresher_2_entry_js.js            | -                          |  52.65 kB |
+node_modules_ionic_core_dist_esm_ion-alert_entry_js.js                  | -                          |  47.40 kB |
+common.js                                                               | common                     |  44.30 kB |
+node_modules_ionic_core_dist_esm_ion-segment_2_entry_js.js              | -                          |  40.91 kB |
+node_modules_ionic_core_dist_esm_ion-menu_3_entry_js.js                 | -                          |  40.52 kB |
+node_modules_ionic_core_dist_esm_ion-nav_2_entry_js.js                  | -                          |  37.01 kB |
+node_modules_ionic_core_dist_esm_ion-item-option_3_entry_js.js          | -                          |  35.01 kB |
+node_modules_ionic_core_dist_esm_ion-route_4_entry_js.js                | -                          |  34.44 kB |
+node_modules_ionic_core_dist_esm_ion-searchbar_entry_js.js              | -                          |  34.39 kB |
+node_modules_ionic_core_dist_esm_ion-button_2_entry_js.js               | -                          |  33.88 kB |
+node_modules_ionic_core_dist_esm_ion-select_3_entry_js.js               | -                          |  32.58 kB |
+node_modules_ionic_core_dist_esm_ion-action-sheet_entry_js.js           | -                          |  30.79 kB |
+node_modules_ionic_core_dist_esm_ion-range_entry_js.js                  | -                          |  29.30 kB |
+node_modules_ionic_core_dist_esm_ion-accordion_2_entry_js.js            | -                          |  28.48 kB |
+node_modules_ionic_core_dist_esm_ion-fab_3_entry_js.js                  | -                          |  27.36 kB |
+node_modules_ionic_core_dist_esm_ion-toast_entry_js.js                  | -                          |  24.02 kB |
+node_modules_ionic_core_dist_esm_ion-tab-bar_2_entry_js.js              | -                          |  24.02 kB |
+node_modules_ionic_core_dist_esm_ion-input_entry_js.js                  | -                          |  23.11 kB |
+node_modules_ionic_core_dist_esm_ion-breadcrumb_2_entry_js.js           | -                          |  22.20 kB |
+node_modules_ionic_core_dist_esm_ion-progress-bar_entry_js.js           | -                          |  21.98 kB |
+node_modules_ionic_core_dist_esm_ion-picker-internal_entry_js.js        | -                          |  21.46 kB |
+node_modules_ionic_core_dist_esm_ion-virtual-scroll_entry_js.js         | -                          |  19.79 kB |
+node_modules_ionic_core_dist_esm_ion-textarea_entry_js.js               | -                          |  19.66 kB |
+polyfills-dom.js                                                        | polyfills-dom              |  19.42 kB |
+node_modules_ionic_core_dist_esm_ion-toggle_entry_js.js                 | -                          |  18.05 kB |
+node_modules_ionic_core_dist_esm_input-shims-4295668e_js.js             | input-shims-4295668e-js    |  17.57 kB |
+node_modules_ionic_core_dist_esm_ion-back-button_entry_js.js            | -                          |  17.50 kB |
+node_modules_ionic_core_dist_esm_ion-radio_2_entry_js.js                | -                          |  17.40 kB |
+node_modules_ionic_core_dist_esm_ion-loading_entry_js.js                | -                          |  15.82 kB |
+node_modules_ionic_core_dist_esm_ion-col_3_entry_js.js                  | -                          |  15.80 kB |
+node_modules_ionic_core_dist_esm_ion-card_5_entry_js.js                 | -                          |  15.63 kB |
+node_modules_ionic_core_dist_esm_ion-infinite-scroll_2_entry_js.js      | -                          |  14.47 kB |
+node_modules_ionic_core_dist_esm_ion-picker-column-internal_entry_js.js | -                          |  13.74 kB |
+node_modules_ionic_core_dist_esm_ion-reorder_2_entry_js.js              | -                          |  13.52 kB |
+node_modules_ionic_core_dist_esm_ion-checkbox_entry_js.js               | -                          |  11.45 kB |
+node_modules_ionic_core_dist_esm_ion-tab_2_entry_js.js                  | -                          |  10.62 kB |
+node_modules_ionic_core_dist_esm_ion-split-pane_entry_js.js             | -                          |  10.33 kB |
+node_modules_ionic_core_dist_esm_ion-chip_entry_js.js                   | -                          |   9.85 kB |
+node_modules_ionic_core_dist_esm_ion-spinner_entry_js.js                | -                          |   8.22 kB |
+src_app_home_home_module_ts.js                                          | home-home-module           |   7.80 kB |
+node_modules_ionic_core_dist_esm_ion-ripple-effect_entry_js.js          | -                          |   6.86 kB |
+src_app_regnlogin_regnlogin_module_ts.js                                | regnlogin-regnlogin-module |   5.94 kB |
+src_app_videocall_videocall_module_ts.js                                | videocall-videocall-module |   5.94 kB |
+src_app_audiocall_audiocall_module_ts.js                                | audiocall-audiocall-module |   5.94 kB |
+node_modules_ionic_core_dist_esm_tap-click-89bcc7cc_js.js               | tap-click-89bcc7cc-js      |   5.91 kB |
+node_modules_ionic_core_dist_esm_ion-avatar_3_entry_js.js               | -                          |   5.83 kB |
+src_app_profile_profile_module_ts.js                                    | profile-profile-module     |   5.79 kB |
+src_app_status_status_module_ts.js                                      | status-status-module       |   5.72 kB |
+src_app_main_main_module_ts.js                                          | main-main-module           |   5.58 kB |
+src_app_chat_chat_module_ts.js                                          | chat-chat-module           |   5.58 kB |
+node_modules_ionic_core_dist_esm_ion-img_entry_js.js                    | -                          |   4.54 kB |
+node_modules_ionic_core_dist_esm_ion-backdrop_entry_js.js               | -                          |   3.47 kB |
+node_modules_ionic_core_dist_esm_status-tap-e9e23d4e_js.js              | status-tap-e9e23d4e-js     |   3.11 kB |
+node_modules_ionic_core_dist_esm_ion-text_entry_js.js                   | -                          |   1.76 kB |
+
+Build at: 2022-04-26T00:55:11.301Z - Hash: 89b3f0e160e31c66 - Time: 14826ms
+> cordova.cmd prepare android
+
+C:\angular and react\angular\sproudKnowledge\SproudKnowledge_Chat\vasavi_college_final_year_project\project\master\finalyearprojectforvasavistudents>ionic cordova build android
+> ng.cmd run app:ionic-cordova-build --platform=android
+√ Browser application bundle generation complete.
+√ Copying assets complete.
+√ Index html generation complete.
+
+Initial Chunk Files                                                     | Names                      |  Raw Size
+vendor.js                                                               | vendor                     |   3.54 MB |
+polyfills.js                                                            | polyfills                  | 307.63 kB |
+cordova.js                                                              | cordova                    |  61.72 kB |
+styles.css                                                              | styles                     |  37.80 kB |
+main.js                                                                 | main                       |  16.38 kB |
+runtime.js                                                              | runtime                    |  13.96 kB |
+
+                                                                        | Initial Total              |   3.97 MB
+
+Lazy Chunk Files                                                        | Names                      |  Raw Size
+node_modules_ionic_core_dist_esm_swiper_bundle-28080340_js.js           | swiper-bundle-28080340-js  | 200.26 kB |
+node_modules_ionic_core_dist_esm_ion-datetime_3_entry_js.js             | -                          | 141.81 kB |
+node_modules_ionic_core_dist_esm_ion-item_8_entry_js.js                 | -                          |  94.18 kB |
+polyfills-core-js.js                                                    | polyfills-core-js          |  92.34 kB |
+node_modules_ionic_core_dist_esm_ion-app_8_entry_js.js                  | -                          |  78.73 kB |
+node_modules_ionic_core_dist_esm_ion-modal_entry_js.js                  | -                          |  66.47 kB |
+node_modules_ionic_core_dist_esm_ion-slide_2_entry_js.js                | -                          |  62.22 kB |
+node_modules_ionic_core_dist_esm_ion-popover_entry_js.js                | -                          |  58.68 kB |
+node_modules_ionic_core_dist_esm_ion-refresher_2_entry_js.js            | -                          |  52.65 kB |
+node_modules_ionic_core_dist_esm_ion-alert_entry_js.js                  | -                          |  47.40 kB |
+common.js                                                               | common                     |  44.30 kB |
+node_modules_ionic_core_dist_esm_ion-segment_2_entry_js.js              | -                          |  40.91 kB |
+node_modules_ionic_core_dist_esm_ion-menu_3_entry_js.js                 | -                          |  40.52 kB |
+node_modules_ionic_core_dist_esm_ion-nav_2_entry_js.js                  | -                          |  37.01 kB |
+node_modules_ionic_core_dist_esm_ion-item-option_3_entry_js.js          | -                          |  35.01 kB |
+node_modules_ionic_core_dist_esm_ion-route_4_entry_js.js                | -                          |  34.44 kB |
+node_modules_ionic_core_dist_esm_ion-searchbar_entry_js.js              | -                          |  34.39 kB |
+node_modules_ionic_core_dist_esm_ion-button_2_entry_js.js               | -                          |  33.88 kB |
+node_modules_ionic_core_dist_esm_ion-select_3_entry_js.js               | -                          |  32.58 kB |
+node_modules_ionic_core_dist_esm_ion-action-sheet_entry_js.js           | -                          |  30.79 kB |
+node_modules_ionic_core_dist_esm_ion-range_entry_js.js                  | -                          |  29.30 kB |
+node_modules_ionic_core_dist_esm_ion-accordion_2_entry_js.js            | -                          |  28.48 kB |
+node_modules_ionic_core_dist_esm_ion-fab_3_entry_js.js                  | -                          |  27.36 kB |
+node_modules_ionic_core_dist_esm_ion-toast_entry_js.js                  | -                          |  24.02 kB |
+node_modules_ionic_core_dist_esm_ion-tab-bar_2_entry_js.js              | -                          |  24.02 kB |
+node_modules_ionic_core_dist_esm_ion-input_entry_js.js                  | -                          |  23.11 kB |
+node_modules_ionic_core_dist_esm_ion-breadcrumb_2_entry_js.js           | -                          |  22.20 kB |
+node_modules_ionic_core_dist_esm_ion-progress-bar_entry_js.js           | -                          |  21.98 kB |
+node_modules_ionic_core_dist_esm_ion-picker-internal_entry_js.js        | -                          |  21.46 kB |
+node_modules_ionic_core_dist_esm_ion-virtual-scroll_entry_js.js         | -                          |  19.79 kB |
+node_modules_ionic_core_dist_esm_ion-textarea_entry_js.js               | -                          |  19.66 kB |
+polyfills-dom.js                                                        | polyfills-dom              |  19.42 kB |
+node_modules_ionic_core_dist_esm_ion-toggle_entry_js.js                 | -                          |  18.05 kB |
+node_modules_ionic_core_dist_esm_input-shims-4295668e_js.js             | input-shims-4295668e-js    |  17.57 kB |
+node_modules_ionic_core_dist_esm_ion-back-button_entry_js.js            | -                          |  17.50 kB |
+node_modules_ionic_core_dist_esm_ion-radio_2_entry_js.js                | -                          |  17.40 kB |
+node_modules_ionic_core_dist_esm_ion-loading_entry_js.js                | -                          |  15.82 kB |
+node_modules_ionic_core_dist_esm_ion-col_3_entry_js.js                  | -                          |  15.80 kB |
+node_modules_ionic_core_dist_esm_ion-card_5_entry_js.js                 | -                          |  15.63 kB |
+node_modules_ionic_core_dist_esm_ion-infinite-scroll_2_entry_js.js      | -                          |  14.47 kB |
+node_modules_ionic_core_dist_esm_ion-picker-column-internal_entry_js.js | -                          |  13.74 kB |
+node_modules_ionic_core_dist_esm_ion-reorder_2_entry_js.js              | -                          |  13.52 kB |
+node_modules_ionic_core_dist_esm_ion-checkbox_entry_js.js               | -                          |  11.45 kB |
+node_modules_ionic_core_dist_esm_ion-tab_2_entry_js.js                  | -                          |  10.62 kB |
+node_modules_ionic_core_dist_esm_ion-split-pane_entry_js.js             | -                          |  10.33 kB |
+node_modules_ionic_core_dist_esm_ion-chip_entry_js.js                   | -                          |   9.85 kB |
+node_modules_ionic_core_dist_esm_ion-spinner_entry_js.js                | -                          |   8.22 kB |
+src_app_home_home_module_ts.js                                          | home-home-module           |   7.80 kB |
+node_modules_ionic_core_dist_esm_ion-ripple-effect_entry_js.js          | -                          |   6.86 kB |
+src_app_regnlogin_regnlogin_module_ts.js                                | regnlogin-regnlogin-module |   5.94 kB |
+src_app_videocall_videocall_module_ts.js                                | videocall-videocall-module |   5.94 kB |
+src_app_audiocall_audiocall_module_ts.js                                | audiocall-audiocall-module |   5.94 kB |
+node_modules_ionic_core_dist_esm_tap-click-89bcc7cc_js.js               | tap-click-89bcc7cc-js      |   5.91 kB |
+node_modules_ionic_core_dist_esm_ion-avatar_3_entry_js.js               | -                          |   5.83 kB |
+src_app_profile_profile_module_ts.js                                    | profile-profile-module     |   5.79 kB |
+src_app_status_status_module_ts.js                                      | status-status-module       |   5.72 kB |
+src_app_main_main_module_ts.js                                          | main-main-module           |   5.58 kB |
+src_app_chat_chat_module_ts.js                                          | chat-chat-module           |   5.58 kB |
+node_modules_ionic_core_dist_esm_ion-img_entry_js.js                    | -                          |   4.54 kB |
+node_modules_ionic_core_dist_esm_ion-backdrop_entry_js.js               | -                          |   3.47 kB |
+node_modules_ionic_core_dist_esm_status-tap-e9e23d4e_js.js              | status-tap-e9e23d4e-js     |   3.11 kB |
+node_modules_ionic_core_dist_esm_ion-text_entry_js.js                   | -                          |   1.76 kB |
+
+Build at: 2022-04-26T00:56:05.137Z - Hash: 89b3f0e160e31c66 - Time: 5446ms
+> cordova.cmd build android
+Checking Java JDK and Android SDK versions
+ANDROID_SDK_ROOT=C:\Android (recommended setting)
+ANDROID_HOME=C:\Users\swath\AppData\Local\Android\Sdk (DEPRECATED)
+Using Android SDK: C:\Android
+> Task :wrapper
+
+BUILD SUCCESSFUL in 3s
+1 actionable task: 1 executed
+Subproject Path: CordovaLib
+Subproject Path: app
+> Task :app:preBuild UP-TO-DATE
+> Task :app:preDebugBuild UP-TO-DATE
+> Task :CordovaLib:preBuild UP-TO-DATE
+> Task :CordovaLib:preDebugBuild UP-TO-DATE
+> Task :CordovaLib:compileDebugAidl NO-SOURCE
+> Task :app:compileDebugAidl NO-SOURCE
+> Task :CordovaLib:packageDebugRenderscript NO-SOURCE
+> Task :app:compileDebugRenderscript NO-SOURCE
+> Task :app:generateDebugBuildConfig
+> Task :app:javaPreCompileDebug
+> Task :app:generateDebugResValues
+> Task :CordovaLib:writeDebugAarMetadata
+> Task :app:generateDebugResources
+> Task :app:checkDebugAarMetadata
+> Task :CordovaLib:compileDebugRenderscript
+> Task :CordovaLib:generateDebugResValues
+> Task :CordovaLib:generateDebugResources
+> Task :CordovaLib:packageDebugResources
+> Task :app:createDebugCompatibleScreenManifests
+> Task :app:extractDeepLinksDebug
+> Task :CordovaLib:extractDeepLinksDebug
+> Task :CordovaLib:compileDebugLibraryResources
+> Task :CordovaLib:processDebugManifest
+> Task :CordovaLib:generateDebugBuildConfig
+> Task :CordovaLib:parseDebugLocalResources
+> Task :app:processDebugMainManifest
+> Task :app:processDebugManifest
+> Task :CordovaLib:javaPreCompileDebug
+> Task :app:mergeDebugNativeDebugMetadata NO-SOURCE
+> Task :app:mergeDebugShaders
+> Task :app:compileDebugShaders NO-SOURCE
+> Task :app:generateDebugAssets UP-TO-DATE
+> Task :CordovaLib:mergeDebugShaders
+> Task :CordovaLib:compileDebugShaders NO-SOURCE
+> Task :CordovaLib:generateDebugAssets UP-TO-DATE
+> Task :CordovaLib:packageDebugAssets
+> Task :CordovaLib:generateDebugRFile
+> Task :app:mergeDebugResources
+> Task :app:mergeDebugAssets
+> Task :app:processDebugManifestForPackage
+
+> Task :CordovaLib:compileDebugJavaWithJavac
+Note: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+
+> Task :app:processDebugJavaRes NO-SOURCE
+> Task :CordovaLib:bundleLibCompileToJarDebug
+> Task :CordovaLib:processDebugJavaRes
+> Task :CordovaLib:bundleLibResDebug
+> Task :app:checkDebugDuplicateClasses
+> Task :app:desugarDebugFileDependencies
+> Task :CordovaLib:bundleLibRuntimeToJarDebug
+> Task :app:mergeDebugJniLibFolders
+> Task :CordovaLib:mergeDebugJniLibFolders
+> Task :CordovaLib:mergeDebugNativeLibs NO-SOURCE
+> Task :CordovaLib:stripDebugDebugSymbols NO-SOURCE
+> Task :CordovaLib:copyDebugJniLibsProjectOnly
+> Task :app:validateSigningDebug
+> Task :app:writeDebugAppMetadata
+> Task :app:writeDebugSigningConfigVersions
+> Task :app:mergeExtDexDebug
+> Task :app:mergeLibDexDebug
+> Task :app:processDebugResources
+
+Note: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+> Task :app:compileDebugJavaWithJavac
+
+> Task :app:compressDebugAssets
+> Task :app:compileDebugSources
+> Task :app:mergeDebugJavaResource
+> Task :app:mergeDebugNativeLibs
+> Task :app:dexBuilderDebug
+> Task :app:stripDebugDebugSymbols NO-SOURCE
+> Task :app:mergeProjectDexDebug
+> Task :app:packageDebug
+> Task :app:assembleDebug
+> Task :app:cdvBuildDebug
+
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 8.0.
+
+You can use '--warning-mode all' to show the individual deprecation warnings and determine if they come from your own scripts or plugins.
+
+See https://docs.gradle.org/7.1.1/userguide/command_line_interface.html#sec:command_line_warnings
+
+BUILD SUCCESSFUL in 1m 44s
+48 actionable tasks: 48 executed
+Built the following apk(s):
+        C:\angular and react\angular\sproudKnowledge\SproudKnowledge_Chat\vasavi_college_final_year_project\project\master\finalyearprojectforvasavistudents\platforms\android\app\build\outputs\apk\debug\app-debug.apk
+
+C:\angular and react\angular\sproudKnowledge\SproudKnowledge_Chat\vasavi_college_final_year_project\project\master\finalyearprojectforvasavistudents>npm install --save bootstrap
+npm WARN ajv-keywords@3.5.2 requires a peer of ajv@^6.9.1 but none is installed. You must install peer dependencies yourself.
+npm WARN bootstrap@5.1.3 requires a peer of @popperjs/core@^2.10.2 but none is installed. You must install peer dependencies yourself.
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: @swc/core-android-arm-eabi@1.2.171 (node_modules\@swc\core-android-arm-eabi):
+npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for @swc/core-android-arm-eabi@1.2.171: wanted {"os":"android","arch":"arm"} (current: {"os":"win32","arch":"x64"})
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: @swc/core-darwin-arm64@1.2.171 (node_modules\@swc\core-darwin-arm64):
+npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for @swc/core-darwin-arm64@1.2.171: wanted {"os":"darwin","arch":"arm64"} (current: {"os":"win32","arch":"x64"})
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: @swc/core-linux-arm-gnueabihf@1.2.171 (node_modules\@swc\core-linux-arm-gnueabihf):
+npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for @swc/core-linux-arm-gnueabihf@1.2.171: wanted {"os":"linux","arch":"arm"} (current: {"os":"win32","arch":"x64"})
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: @swc/core-android-arm64@1.2.171 (node_modules\@swc\core-android-arm64):
+npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for @swc/core-android-arm64@1.2.171: wanted {"os":"android","arch":"arm64"} (current: {"os":"win32","arch":"x64"})
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: @swc/core-darwin-x64@1.2.171 (node_modules\@swc\core-darwin-x64):
+npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for @swc/core-darwin-x64@1.2.171: wanted {"os":"darwin","arch":"x64"} (current: {"os":"win32","arch":"x64"})
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: @swc/core-linux-x64-musl@1.2.171 (node_modules\@swc\core-linux-x64-musl):
+npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for @swc/core-linux-x64-musl@1.2.171: wanted {"os":"linux","arch":"x64"} (current: {"os":"win32","arch":"x64"})
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: @swc/core-linux-arm64-gnu@1.2.171 (node_modules\@swc\core-linux-arm64-gnu):
+npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for @swc/core-linux-arm64-gnu@1.2.171: wanted {"os":"linux","arch":"arm64"} (current: {"os":"win32","arch":"x64"})
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: @swc/core-linux-x64-gnu@1.2.171 (node_modules\@swc\core-linux-x64-gnu):
+npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for @swc/core-linux-x64-gnu@1.2.171: wanted {"os":"linux","arch":"x64"} (current: {"os":"win32","arch":"x64"})
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: @swc/core-freebsd-x64@1.2.171 (node_modules\@swc\core-freebsd-x64):
+npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for @swc/core-freebsd-x64@1.2.171: wanted {"os":"freebsd","arch":"x64"} (current: {"os":"win32","arch":"x64"})
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: @swc/core-linux-arm64-musl@1.2.171 (node_modules\@swc\core-linux-arm64-musl):
+npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for @swc/core-linux-arm64-musl@1.2.171: wanted {"os":"linux","arch":"arm64"} (current: {"os":"win32","arch":"x64"})
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: esbuild-freebsd-arm64@0.14.22 (node_modules\esbuild-freebsd-arm64):
+npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for esbuild-freebsd-arm64@0.14.22: wanted {"os":"freebsd","arch":"arm64"} (current: {"os":"win32","arch":"x64"})
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: @swc/core-win32-arm64-msvc@1.2.171 (node_modules\@swc\core-win32-arm64-msvc):
+npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for @swc/core-win32-arm64-msvc@1.2.171: wanted {"os":"win32","arch":"arm64"} (current: {"os":"win32","arch":"x64"})
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: esbuild-darwin-arm64@0.14.22 (node_modules\esbuild-darwin-arm64):
+npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for esbuild-darwin-arm64@0.14.22: wanted {"os":"darwin","arch":"arm64"} (current: {"os":"win32","arch":"x64"})
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: @swc/core-win32-ia32-msvc@1.2.171 (node_modules\@swc\core-win32-ia32-msvc):
+npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for @swc/core-win32-ia32-msvc@1.2.171: wanted {"os":"win32","arch":"ia32"} (current: {"os":"win32","arch":"x64"})
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: esbuild-darwin-64@0.14.22 (node_modules\esbuild-darwin-64):
+npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for esbuild-darwin-64@0.14.22: wanted {"os":"darwin","arch":"x64"} (current: {"os":"win32","arch":"x64"})
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: esbuild-freebsd-64@0.14.22 (node_modules\esbuild-freebsd-64):
+npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for esbuild-freebsd-64@0.14.22: wanted {"os":"freebsd","arch":"x64"} (current: {"os":"win32","arch":"x64"})
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: esbuild-linux-64@0.14.22 (node_modules\esbuild-linux-64):
+npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for esbuild-linux-64@0.14.22: wanted {"os":"linux","arch":"x64"} (current: {"os":"win32","arch":"x64"})
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: esbuild-android-arm64@0.14.22 (node_modules\esbuild-android-arm64):
+npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for esbuild-android-arm64@0.14.22: wanted {"os":"android","arch":"arm64"} (current: {"os":"win32","arch":"x64"})
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: esbuild-linux-32@0.14.22 (node_modules\esbuild-linux-32):
+npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for esbuild-linux-32@0.14.22: wanted {"os":"linux","arch":"ia32"} (current: {"os":"win32","arch":"x64"})
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: esbuild-linux-arm@0.14.22 (node_modules\esbuild-linux-arm):
+npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for esbuild-linux-arm@0.14.22: wanted {"os":"linux","arch":"arm"} (current: {"os":"win32","arch":"x64"})
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: esbuild-linux-arm64@0.14.22 (node_modules\esbuild-linux-arm64):
+npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for esbuild-linux-arm64@0.14.22: wanted {"os":"linux","arch":"arm64"} (current: {"os":"win32","arch":"x64"})
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: esbuild-linux-mips64le@0.14.22 (node_modules\esbuild-linux-mips64le):
+npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for esbuild-linux-mips64le@0.14.22: wanted {"os":"linux","arch":"mips64el"} (current: {"os":"win32","arch":"x64"})
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: esbuild-linux-riscv64@0.14.22 (node_modules\esbuild-linux-riscv64):
+npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for esbuild-linux-riscv64@0.14.22: wanted {"os":"linux","arch":"riscv64"} (current: {"os":"win32","arch":"x64"})
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: esbuild-linux-s390x@0.14.22 (node_modules\esbuild-linux-s390x):
+npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for esbuild-linux-s390x@0.14.22: wanted {"os":"linux","arch":"s390x"} (current: {"os":"win32","arch":"x64"})
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: esbuild-linux-ppc64le@0.14.22 (node_modules\esbuild-linux-ppc64le):
+npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for esbuild-linux-ppc64le@0.14.22: wanted {"os":"linux","arch":"ppc64"} (current: {"os":"win32","arch":"x64"})
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: esbuild-netbsd-64@0.14.22 (node_modules\esbuild-netbsd-64):
+npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for esbuild-netbsd-64@0.14.22: wanted {"os":"netbsd","arch":"x64"} (current: {"os":"win32","arch":"x64"})
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: esbuild-windows-32@0.14.22 (node_modules\esbuild-windows-32):
+npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for esbuild-windows-32@0.14.22: wanted {"os":"win32","arch":"ia32"} (current: {"os":"win32","arch":"x64"})
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: esbuild-sunos-64@0.14.22 (node_modules\esbuild-sunos-64):
+npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for esbuild-sunos-64@0.14.22: wanted {"os":"sunos","arch":"x64"} (current: {"os":"win32","arch":"x64"})
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: esbuild-openbsd-64@0.14.22 (node_modules\esbuild-openbsd-64):
+npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for esbuild-openbsd-64@0.14.22: wanted {"os":"openbsd","arch":"x64"} (current: {"os":"win32","arch":"x64"})
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: fsevents@2.3.2 (node_modules\fsevents):
+npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for fsevents@2.3.2: wanted {"os":"darwin","arch":"any"} (current: {"os":"win32","arch":"x64"})
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: nice-napi@1.0.2 (node_modules\nice-napi):
+npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for nice-napi@1.0.2: wanted {"os":"!win32","arch":"any"} (current: {"os":"win32","arch":"x64"})
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: esbuild-windows-arm64@0.14.22 (node_modules\esbuild-windows-arm64):
+npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for esbuild-windows-arm64@0.14.22: wanted {"os":"win32","arch":"arm64"} (current: {"os":"win32","arch":"x64"})
+
++ bootstrap@5.1.3
+added 1 package from 2 contributors, removed 1 package and audited 1332 packages in 39.689s
+
+153 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+
+
+C:\angular and react\angular\sproudKnowledge\SproudKnowledge_Chat\vasavi_college_final_year_project\project\master\finalyearprojectforvasavistudents>npm install @ng-bootstrap/ng-bootstrap
+npm WARN ajv-keywords@3.5.2 requires a peer of ajv@^6.9.1 but none is installed. You must install peer dependencies yourself.
+npm WARN bootstrap@5.1.3 requires a peer of @popperjs/core@^2.10.2 but none is installed. You must install peer dependencies yourself.
+npm WARN @ng-bootstrap/ng-bootstrap@12.0.2 requires a peer of @angular/localize@^13.0.0 but none is installed. You must install peer dependencies yourself.
+npm WARN @ng-bootstrap/ng-bootstrap@12.0.2 requires a peer of @popperjs/core@^2.10.2 but none is installed. You must install peer dependencies yourself.
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: @swc/core-android-arm64@1.2.171 (node_modules\@swc\core-android-arm64):
+npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for @swc/core-android-arm64@1.2.171: wanted {"os":"android","arch":"arm64"} (current: {"os":"win32","arch":"x64"})
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: @swc/core-android-arm-eabi@1.2.171 (node_modules\@swc\core-android-arm-eabi):
+npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for @swc/core-android-arm-eabi@1.2.171: wanted {"os":"android","arch":"arm"} (current: {"os":"win32","arch":"x64"})
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: @swc/core-darwin-x64@1.2.171 (node_modules\@swc\core-darwin-x64):
+npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for @swc/core-darwin-x64@1.2.171: wanted {"os":"darwin","arch":"x64"} (current: {"os":"win32","arch":"x64"})
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: @swc/core-darwin-arm64@1.2.171 (node_modules\@swc\core-darwin-arm64):
+npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for @swc/core-darwin-arm64@1.2.171: wanted {"os":"darwin","arch":"arm64"} (current: {"os":"win32","arch":"x64"})
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: @swc/core-linux-arm-gnueabihf@1.2.171 (node_modules\@swc\core-linux-arm-gnueabihf):
+npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for @swc/core-linux-arm-gnueabihf@1.2.171: wanted {"os":"linux","arch":"arm"} (current: {"os":"win32","arch":"x64"})
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: @swc/core-linux-arm64-gnu@1.2.171 (node_modules\@swc\core-linux-arm64-gnu):
+npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for @swc/core-linux-arm64-gnu@1.2.171: wanted {"os":"linux","arch":"arm64"} (current: {"os":"win32","arch":"x64"})
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: @swc/core-linux-arm64-musl@1.2.171 (node_modules\@swc\core-linux-arm64-musl):
+npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for @swc/core-linux-arm64-musl@1.2.171: wanted {"os":"linux","arch":"arm64"} (current: {"os":"win32","arch":"x64"})
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: @swc/core-win32-ia32-msvc@1.2.171 (node_modules\@swc\core-win32-ia32-msvc):
+npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for @swc/core-win32-ia32-msvc@1.2.171: wanted {"os":"win32","arch":"ia32"} (current: {"os":"win32","arch":"x64"})
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: @swc/core-linux-x64-musl@1.2.171 (node_modules\@swc\core-linux-x64-musl):
+npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for @swc/core-linux-x64-musl@1.2.171: wanted {"os":"linux","arch":"x64"} (current: {"os":"win32","arch":"x64"})
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: esbuild-android-arm64@0.14.22 (node_modules\esbuild-android-arm64):
+npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for esbuild-android-arm64@0.14.22: wanted {"os":"android","arch":"arm64"} (current: {"os":"win32","arch":"x64"})
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: @swc/core-freebsd-x64@1.2.171 (node_modules\@swc\core-freebsd-x64):
+npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for @swc/core-freebsd-x64@1.2.171: wanted {"os":"freebsd","arch":"x64"} (current: {"os":"win32","arch":"x64"})
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: @swc/core-linux-x64-gnu@1.2.171 (node_modules\@swc\core-linux-x64-gnu):
+npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for @swc/core-linux-x64-gnu@1.2.171: wanted {"os":"linux","arch":"x64"} (current: {"os":"win32","arch":"x64"})
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: @swc/core-win32-arm64-msvc@1.2.171 (node_modules\@swc\core-win32-arm64-msvc):
+npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for @swc/core-win32-arm64-msvc@1.2.171: wanted {"os":"win32","arch":"arm64"} (current: {"os":"win32","arch":"x64"})
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: esbuild-darwin-64@0.14.22 (node_modules\esbuild-darwin-64):
+npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for esbuild-darwin-64@0.14.22: wanted {"os":"darwin","arch":"x64"} (current: {"os":"win32","arch":"x64"})
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: esbuild-darwin-arm64@0.14.22 (node_modules\esbuild-darwin-arm64):
+npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for esbuild-darwin-arm64@0.14.22: wanted {"os":"darwin","arch":"arm64"} (current: {"os":"win32","arch":"x64"})
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: esbuild-freebsd-64@0.14.22 (node_modules\esbuild-freebsd-64):
+npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for esbuild-freebsd-64@0.14.22: wanted {"os":"freebsd","arch":"x64"} (current: {"os":"win32","arch":"x64"})
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: esbuild-linux-32@0.14.22 (node_modules\esbuild-linux-32):
+npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for esbuild-linux-32@0.14.22: wanted {"os":"linux","arch":"ia32"} (current: {"os":"win32","arch":"x64"})
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: esbuild-freebsd-arm64@0.14.22 (node_modules\esbuild-freebsd-arm64):
+npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for esbuild-freebsd-arm64@0.14.22: wanted {"os":"freebsd","arch":"arm64"} (current: {"os":"win32","arch":"x64"})
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: esbuild-linux-arm64@0.14.22 (node_modules\esbuild-linux-arm64):
+npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for esbuild-linux-arm64@0.14.22: wanted {"os":"linux","arch":"arm64"} (current: {"os":"win32","arch":"x64"})
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: esbuild-linux-64@0.14.22 (node_modules\esbuild-linux-64):
+npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for esbuild-linux-64@0.14.22: wanted {"os":"linux","arch":"x64"} (current: {"os":"win32","arch":"x64"})
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: esbuild-linux-ppc64le@0.14.22 (node_modules\esbuild-linux-ppc64le):
+npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for esbuild-linux-ppc64le@0.14.22: wanted {"os":"linux","arch":"ppc64"} (current: {"os":"win32","arch":"x64"})
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: esbuild-linux-mips64le@0.14.22 (node_modules\esbuild-linux-mips64le):
+npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for esbuild-linux-mips64le@0.14.22: wanted {"os":"linux","arch":"mips64el"} (current: {"os":"win32","arch":"x64"})
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: esbuild-linux-arm@0.14.22 (node_modules\esbuild-linux-arm):
+npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for esbuild-linux-arm@0.14.22: wanted {"os":"linux","arch":"arm"} (current: {"os":"win32","arch":"x64"})
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: esbuild-netbsd-64@0.14.22 (node_modules\esbuild-netbsd-64):
+npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for esbuild-netbsd-64@0.14.22: wanted {"os":"netbsd","arch":"x64"} (current: {"os":"win32","arch":"x64"})
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: esbuild-linux-s390x@0.14.22 (node_modules\esbuild-linux-s390x):
+npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for esbuild-linux-s390x@0.14.22: wanted {"os":"linux","arch":"s390x"} (current: {"os":"win32","arch":"x64"})
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: esbuild-linux-riscv64@0.14.22 (node_modules\esbuild-linux-riscv64):
+npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for esbuild-linux-riscv64@0.14.22: wanted {"os":"linux","arch":"riscv64"} (current: {"os":"win32","arch":"x64"})
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: esbuild-openbsd-64@0.14.22 (node_modules\esbuild-openbsd-64):
+npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for esbuild-openbsd-64@0.14.22: wanted {"os":"openbsd","arch":"x64"} (current: {"os":"win32","arch":"x64"})
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: esbuild-windows-32@0.14.22 (node_modules\esbuild-windows-32):
+npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for esbuild-windows-32@0.14.22: wanted {"os":"win32","arch":"ia32"} (current: {"os":"win32","arch":"x64"})
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: esbuild-windows-arm64@0.14.22 (node_modules\esbuild-windows-arm64):
+npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for esbuild-windows-arm64@0.14.22: wanted {"os":"win32","arch":"arm64"} (current: {"os":"win32","arch":"x64"})
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: esbuild-sunos-64@0.14.22 (node_modules\esbuild-sunos-64):
+npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for esbuild-sunos-64@0.14.22: wanted {"os":"sunos","arch":"x64"} (current: {"os":"win32","arch":"x64"})
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: fsevents@2.3.2 (node_modules\fsevents):
+npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for fsevents@2.3.2: wanted {"os":"darwin","arch":"any"} (current: {"os":"win32","arch":"x64"})
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: nice-napi@1.0.2 (node_modules\nice-napi):
+npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for nice-napi@1.0.2: wanted {"os":"!win32","arch":"any"} (current: {"os":"win32","arch":"x64"})
+
++ @ng-bootstrap/ng-bootstrap@12.0.2
+added 1 package from 1 contributor and audited 1333 packages in 35.541s
+
+153 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+
+
+C:\angular and react\angular\sproudKnowledge\SproudKnowledge_Chat\vasavi_college_final_year_project\project\master\finalyearprojectforvasavistudents>npm i jquery
+npm WARN @ng-bootstrap/ng-bootstrap@12.0.2 requires a peer of @angular/localize@^13.0.0 but none is installed. You must install peer dependencies yourself.
+npm WARN @ng-bootstrap/ng-bootstrap@12.0.2 requires a peer of @popperjs/core@^2.10.2 but none is installed. You must install peer dependencies yourself.
+npm WARN ajv-keywords@3.5.2 requires a peer of ajv@^6.9.1 but none is installed. You must install peer dependencies yourself.
+npm WARN bootstrap@5.1.3 requires a peer of @popperjs/core@^2.10.2 but none is installed. You must install peer dependencies yourself.
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: @swc/core-darwin-arm64@1.2.171 (node_modules\@swc\core-darwin-arm64):
+npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for @swc/core-darwin-arm64@1.2.171: wanted {"os":"darwin","arch":"arm64"} (current: {"os":"win32","arch":"x64"})
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: @swc/core-freebsd-x64@1.2.171 (node_modules\@swc\core-freebsd-x64):
+npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for @swc/core-freebsd-x64@1.2.171: wanted {"os":"freebsd","arch":"x64"} (current: {"os":"win32","arch":"x64"})
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: @swc/core-linux-arm64-musl@1.2.171 (node_modules\@swc\core-linux-arm64-musl):
+npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for @swc/core-linux-arm64-musl@1.2.171: wanted {"os":"linux","arch":"arm64"} (current: {"os":"win32","arch":"x64"})
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: @swc/core-android-arm-eabi@1.2.171 (node_modules\@swc\core-android-arm-eabi):
+npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for @swc/core-android-arm-eabi@1.2.171: wanted {"os":"android","arch":"arm"} (current: {"os":"win32","arch":"x64"})
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: @swc/core-darwin-x64@1.2.171 (node_modules\@swc\core-darwin-x64):
+npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for @swc/core-darwin-x64@1.2.171: wanted {"os":"darwin","arch":"x64"} (current: {"os":"win32","arch":"x64"})
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: @swc/core-linux-arm64-gnu@1.2.171 (node_modules\@swc\core-linux-arm64-gnu):
+npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for @swc/core-linux-arm64-gnu@1.2.171: wanted {"os":"linux","arch":"arm64"} (current: {"os":"win32","arch":"x64"})
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: @swc/core-android-arm64@1.2.171 (node_modules\@swc\core-android-arm64):
+npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for @swc/core-android-arm64@1.2.171: wanted {"os":"android","arch":"arm64"} (current: {"os":"win32","arch":"x64"})
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: @swc/core-linux-x64-gnu@1.2.171 (node_modules\@swc\core-linux-x64-gnu):
+npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for @swc/core-linux-x64-gnu@1.2.171: wanted {"os":"linux","arch":"x64"} (current: {"os":"win32","arch":"x64"})
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: @swc/core-win32-arm64-msvc@1.2.171 (node_modules\@swc\core-win32-arm64-msvc):
+npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for @swc/core-win32-arm64-msvc@1.2.171: wanted {"os":"win32","arch":"arm64"} (current: {"os":"win32","arch":"x64"})
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: @swc/core-linux-arm-gnueabihf@1.2.171 (node_modules\@swc\core-linux-arm-gnueabihf):
+npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for @swc/core-linux-arm-gnueabihf@1.2.171: wanted {"os":"linux","arch":"arm"} (current: {"os":"win32","arch":"x64"})
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: @swc/core-linux-x64-musl@1.2.171 (node_modules\@swc\core-linux-x64-musl):
+npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for @swc/core-linux-x64-musl@1.2.171: wanted {"os":"linux","arch":"x64"} (current: {"os":"win32","arch":"x64"})
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: @swc/core-win32-ia32-msvc@1.2.171 (node_modules\@swc\core-win32-ia32-msvc):
+npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for @swc/core-win32-ia32-msvc@1.2.171: wanted {"os":"win32","arch":"ia32"} (current: {"os":"win32","arch":"x64"})
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: esbuild-android-arm64@0.14.22 (node_modules\esbuild-android-arm64):
+npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for esbuild-android-arm64@0.14.22: wanted {"os":"android","arch":"arm64"} (current: {"os":"win32","arch":"x64"})
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: esbuild-darwin-arm64@0.14.22 (node_modules\esbuild-darwin-arm64):
+npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for esbuild-darwin-arm64@0.14.22: wanted {"os":"darwin","arch":"arm64"} (current: {"os":"win32","arch":"x64"})
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: esbuild-darwin-64@0.14.22 (node_modules\esbuild-darwin-64):
+npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for esbuild-darwin-64@0.14.22: wanted {"os":"darwin","arch":"x64"} (current: {"os":"win32","arch":"x64"})
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: esbuild-linux-64@0.14.22 (node_modules\esbuild-linux-64):
+npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for esbuild-linux-64@0.14.22: wanted {"os":"linux","arch":"x64"} (current: {"os":"win32","arch":"x64"})
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: esbuild-freebsd-arm64@0.14.22 (node_modules\esbuild-freebsd-arm64):
+npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for esbuild-freebsd-arm64@0.14.22: wanted {"os":"freebsd","arch":"arm64"} (current: {"os":"win32","arch":"x64"})
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: esbuild-freebsd-64@0.14.22 (node_modules\esbuild-freebsd-64):
+npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for esbuild-freebsd-64@0.14.22: wanted {"os":"freebsd","arch":"x64"} (current: {"os":"win32","arch":"x64"})
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: esbuild-linux-arm64@0.14.22 (node_modules\esbuild-linux-arm64):
+npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for esbuild-linux-arm64@0.14.22: wanted {"os":"linux","arch":"arm64"} (current: {"os":"win32","arch":"x64"})
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: esbuild-linux-mips64le@0.14.22 (node_modules\esbuild-linux-mips64le):
+npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for esbuild-linux-mips64le@0.14.22: wanted {"os":"linux","arch":"mips64el"} (current: {"os":"win32","arch":"x64"})
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: esbuild-linux-32@0.14.22 (node_modules\esbuild-linux-32):
+npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for esbuild-linux-32@0.14.22: wanted {"os":"linux","arch":"ia32"} (current: {"os":"win32","arch":"x64"})
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: esbuild-linux-ppc64le@0.14.22 (node_modules\esbuild-linux-ppc64le):
+npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for esbuild-linux-ppc64le@0.14.22: wanted {"os":"linux","arch":"ppc64"} (current: {"os":"win32","arch":"x64"})
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: esbuild-linux-arm@0.14.22 (node_modules\esbuild-linux-arm):
+npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for esbuild-linux-arm@0.14.22: wanted {"os":"linux","arch":"arm"} (current: {"os":"win32","arch":"x64"})
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: esbuild-linux-riscv64@0.14.22 (node_modules\esbuild-linux-riscv64):
+npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for esbuild-linux-riscv64@0.14.22: wanted {"os":"linux","arch":"riscv64"} (current: {"os":"win32","arch":"x64"})
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: esbuild-sunos-64@0.14.22 (node_modules\esbuild-sunos-64):
+npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for esbuild-sunos-64@0.14.22: wanted {"os":"sunos","arch":"x64"} (current: {"os":"win32","arch":"x64"})
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: esbuild-linux-s390x@0.14.22 (node_modules\esbuild-linux-s390x):
+npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for esbuild-linux-s390x@0.14.22: wanted {"os":"linux","arch":"s390x"} (current: {"os":"win32","arch":"x64"})
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: esbuild-netbsd-64@0.14.22 (node_modules\esbuild-netbsd-64):
+npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for esbuild-netbsd-64@0.14.22: wanted {"os":"netbsd","arch":"x64"} (current: {"os":"win32","arch":"x64"})
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: esbuild-windows-32@0.14.22 (node_modules\esbuild-windows-32):
+npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for esbuild-windows-32@0.14.22: wanted {"os":"win32","arch":"ia32"} (current: {"os":"win32","arch":"x64"})
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: esbuild-openbsd-64@0.14.22 (node_modules\esbuild-openbsd-64):
+npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for esbuild-openbsd-64@0.14.22: wanted {"os":"openbsd","arch":"x64"} (current: {"os":"win32","arch":"x64"})
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: esbuild-windows-arm64@0.14.22 (node_modules\esbuild-windows-arm64):
+npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for esbuild-windows-arm64@0.14.22: wanted {"os":"win32","arch":"arm64"} (current: {"os":"win32","arch":"x64"})
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: fsevents@2.3.2 (node_modules\fsevents):
+npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for fsevents@2.3.2: wanted {"os":"darwin","arch":"any"} (current: {"os":"win32","arch":"x64"})
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: nice-napi@1.0.2 (node_modules\nice-napi):
+npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for nice-napi@1.0.2: wanted {"os":"!win32","arch":"any"} (current: {"os":"win32","arch":"x64"})
+
++ jquery@3.6.0
+added 1 package from 1 contributor and audited 1334 packages in 71.996s
+
+153 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+
+
+C:\angular and react\angular\sproudKnowledge\SproudKnowledge_Chat\vasavi_college_final_year_project\project\master\finalyearprojectforvasavistudents>
+C:\angular and react\angular\sproudKnowledge\SproudKnowledge_Chat\vasavi_college_final_year_project\project\master\finalyearprojectforvasavistudents>ng add @angular/fire
+i Using package manager: npm
+√ Found compatible package version: @angular/fire@7.3.0.
+√ Package information loaded.
+
+The package @angular/fire@7.3.0 will be installed and executed.
+Would you like to proceed? Yes
+√ Package successfully installed.
+UPDATE package.json (2579 bytes)
+√ Packages installed successfully.
+? What features would you like to setup? ng deploy -- hosting
+

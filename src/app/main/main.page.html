@@ -1,0 +1,244 @@
+<!-- <ion-header>
+  <ion-toolbar>
+    <ion-title>main</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+
+</ion-content> -->
+<!--ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title>
+      chat
+    </ion-title>
+  </ion-toolbar>
+</ion-header-->
+<!--app-header pageName="home"></app-header-->
+<!-- <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script> -->
+<ion-toolbar> 
+  <ion-segment [(ngModel)]="selectedTab">
+    <ion-segment-button  value="chat" >
+      <ion-label>chat</ion-label>
+    </ion-segment-button>
+    <ion-segment-button (click)="statusTab()"  value="status">
+      <ion-label>status</ion-label>
+    </ion-segment-button>
+    <ion-segment-button (click)="profileTab()"  value="profile" >
+      <ion-label>profile</ion-label>
+    </ion-segment-button>
+    <!-- <ion-segment-button (click)="videocallTab()" value="coding">
+      <ion-label>
+        <img  src="assets/icon/mic-fill.svg" (click)="SpeechRecognationMethod(2)">
+      </ion-label>
+    </ion-segment-button> -->
+  </ion-segment>
+  </ion-toolbar>
+  
+  <ion-content [fullscreen]="true">
+  <ion-list  *ngIf="selectedTab == 'chat' || chat_tab">
+    <div *ngFor="let chats of this.get_all_chat_users">
+      <div id="chattingusers">
+        <div class="row" >
+          <div class="col-3">
+            <img 
+            [src]="chats.profile"
+            style=" 
+            margin-top:1px; 
+            margin-left:5px; 
+            width:50px; 
+            height:50px; 
+            background-color:white; 
+            border:1px solid green; 
+            border-radius:200px;
+            ">
+          </div>
+          <div id="nmmgs" class="col-7" (click)="viewChatting(chats.from_id,chats.to_id,chats.name,chats.profile,chats.one_to_one_cid)">
+            <div >{{chats.name}}</div>
+            <div *ngIf="chats.message.length > 20">{{chats.message | slice:0:20}}...</div>  
+            <div *ngIf="chats.message.length < 20">{{chats.message}}</div> 
+          </div>
+          <div class="col-2">
+            <img id="chatmic" src="assets/icon/mic-fill.svg" (click)="SpeechRecognationMethod(2,chats.from_id,chats.to_id,chats.name,chats.profile,chats.one_to_one_cid)">
+          </div>
+         </div>
+      </div>
+    </div>
+  </ion-list>
+  <ion-list *ngIf="selectedTab == 'status'">
+    <input type="text" #id placeholder="id">
+    <input type="text" #type placeholder="type">
+    <input type="text" #slottime placeholder="slottime">
+    <br>
+    <button (click)="inserttimeslot(id.value,type.value,slottime.value)">add</button>
+    <br><br>
+    <div *ngFor="let s of this.get_all_status">
+  
+     <div *ngIf="s.status === true">
+       <button style="background-color:green; color:white;" (click)="modifiedtimeslot(s.id,s.type,s.slottime)">{{s.slottime}}</button>
+     </div>
+     <div *ngIf="s.status !== true">
+      <del style="background-color:red; color:white;">{{s.slottime}}</del>
+    </div>
+  
+    </div>
+  
+  </ion-list>
+  <!-- <ion-list *ngIf="selectedTab == 'coding'">
+    <div ngFor="let chats of this.get_all_videocalls">
+  
+    </div>
+  </ion-list> -->
+  <ion-list *ngIf="selectedTab == 'profile'">
+  
+  
+  
+  <div class="container show">
+  
+    <div id="bg" class="wrapper">
+     
+      <input style="background-color:whitesmoke;" type="search" value="{{this.srSearch}}" name="text" id="search" placeholder="search friends" 
+      style="width: 91%;"
+      autocomplete="off" #searchkeyup (keyup)="searchKeyupItems(searchkeyup.value)">
+      <img id="micfill" src="assets/icon/mic-fill.svg" (click)="SpeechRecognationMethod(1)">
+      
+  
+      <div *ngIf="touctoutsideandemptysearch" style="
+      position: absolute;
+      width:95%;
+      height: 800px;
+      overflow-x: hidden;
+      overflow-y: auto;
+      z-index: 1;">
+    
+      <div  *ngFor="let sl of this.allSearchRegisteredUsers">
+        <div id="searchuserview" class="container">
+          <div  >
+            <div  class="row">
+              <div class="col-3" (click)="viewProfile(sl.id)">
+                <!--
+                src="https://firebasestorage.googleapis.com/v0/b/sproudknowledgechat.appspot.com/o/finalyearproject%2Fbaselineperson.jpeg.png?alt=media&token=26e286ce-618b-4ba9-98f6-dee3ec170e95" 
+  
+                -->
+                <img 
+                [src]="sl.profile"
+                style=" 
+                margin-top:10px; 
+                margin-left:5px; 
+                width:50px; 
+                height:50px; 
+                background-color:aqua; 
+                border:1px solid green; 
+                border-radius:200px;
+                ">
+              </div>
+              <div class="col-6" (click)="viewProfile(sl.id)">
+                  <span style="color:white; margin-top:15px;
+                    display: flex; justify-content: flex-front;
+                  ">
+                  {{sl.name}}<br>
+                  {{sl.nickname}}
+                  </span>
+              </div>
+              <!--LHS_RHS(sl.regid,sl.id) && LHS_RHS(sl.regid,sl.id)-->
+              <!--this.lhsArray[sl.regid+sl.id] && this.lhsArray[sl.id+sl.regid]-->
+              <div id="reqstatus" class="col-3"><br>
+                <button *ngIf="this.lhsArray[sl.regid+sl.id] && this.lhsArray[sl.id+sl.regid]"  type="button" (click)="sendRequest(1,sl.id)">
+                  following
+                </button>
+                <button  *ngIf="this.lhsArray[sl.regid+sl.id] === undefined || this.lhsArray[sl.regid+sl.id] !== true" type="button" (click)="sendRequest(2,sl.id)">
+                follow
+                </button>
+                <button *ngIf="this.lhsArray[sl.regid+sl.id] === true && this.lhsArray[sl.id+sl.regid] === undefined" type="button" (click)="sendRequest(3,sl.id)">
+                requested
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+     <!--profile-->
+     <div id="bg">
+        <div *ngFor="let pd of this.userProfileInfo">
+          <div style="text-align:center; margin-top:10px; ">
+            <img id="profile_img" 
+            [src]="pd.profile">
+            <!--style="margin-top:-30px; margin-left:180px;"-->
+            <!-- <p>{{this.progressBar}}</p> -->
+         <br>
+           <progress id="file" max="100" value="{{this.progressBar}}">{{this.progressBar}}</progress>
+            <div style="margin-top:5px;">
+              <!-- <img id="addprofile"  src="assets/images/plus.png"> -->
+              <label for="files" class="btn" id="editprofile">edit profile</label>
+              <input id="files" style="visibility:hidden;"  accept="image/*" (change)="updateProfileImage($event)" type="file">
+            </div>
+            <div class="row">
+              <div (click)="viewFollowers()" class="col-4">
+                followers
+              </div>
+              <div (click)="viewFollowing()" class="col-4">
+                following
+              </div>
+              <div (click)="viewchat(pd.id,pd.name,pd.profile)" class="col-4">
+                <img id="chatimg" src="assets/icon/chat.svg"> 
+              </div>
+            </div>
+          </div><br>
+      
+          <form action="/action_page.php">
+      
+              <div class="form-group">
+                <label for="pwd">Name:</label>
+                <input type="text" class="form-control" value="{{pd.name}}"  #name id="pwd" placeholder="Enter name" name="name">
+              </div>
+              <div class="form-group">
+                <label for="pwd">nick name:</label>
+                <input type="text" class="form-control" value="{{pd.nickname}}" #nickname id="pwd" placeholder="nick name" name="nickname">
+              </div>
+              <div class="form-group">
+                <label for="pwd">date of birth:</label>
+                <input type="text" class="form-control" value="{{pd.dob}}" #dateofbirth id="pwd" placeholder="eg:03/09/1997" name="dateofbirth">
+              </div>
+              <div class="form-group">
+                <label for="pwd">bio:</label>
+                <input type="text" class="form-control" value="{{pd.bio}}" #bio id="pwd" placeholder="eg:king of jungle" name="bio">
+              </div>
+              <div class="form-group">
+                <label for="pwd">profission:</label>
+                <input type="text" class="form-control" value="{{pd.proffission}}" #profission id="pwd" placeholder="eg:doctor" name="profission">
+              </div>
+              <div class="form-group">
+                <label for="pwd">status:</label>
+                <input type="text" class="form-control" value="{{pd.status}}" #status id="pwd" placeholder="eg:single or in relationship" name="status">
+              </div>
+             
+            <div style="text-align:center; margin-top:10px;">
+              <button type="submit"  class="btn btn-primary" 
+              (click)="updateprofileDetails(name.value,nickname.value,dateofbirth.value,bio.value,profission.value,status.value,pd.phone,pd.email,pd.profile,pd.id)"
+              >add</button>
+            </div>
+          </form>
+  
+          <div style="text-align:center; width:98%;">
+            <button style="text-align:center; width:98%; margin-top:10px; background-color:red; color:white;" (click)="logout()">logout</button>
+          </div>
+  
+          <!-- <div>
+            <h1 style="font-size:100px">deepu</h1>
+          </div> -->
+      
+      </div>
+        
+     </div>
+    
+  </div>
+  </ion-list>
+  </ion-content>
+  

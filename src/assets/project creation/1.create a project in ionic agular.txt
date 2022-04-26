@@ -1,0 +1,33 @@
+          create a project in ionic angular:
+	|
+(1)ionic start finalyearprojectforvasavistudents
+	|
+(2)cd finalyearprojectforvasavistudents
+	|
+          generating pages:
+ionic g page main
+ionic g page regnlogin
+ionic g page profile
+ionic g page chat
+ionic g page status
+ionic g page videocall
+ionic g page audiocall
+
+	|
+          generating service:
+ionic g service shared/middleware
+
+          Adding android platform to ionic angular
+	|
+ionic cordova platform add android
+	|
+          generation apk
+	|
+ionic cordova resources android --force
+	|
+ng add @ionic/cordova-builders
+	|
+ionic cordova prepare android
+	|
+ionic cordova build android 
+	

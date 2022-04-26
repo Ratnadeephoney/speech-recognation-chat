@@ -1,0 +1,12 @@
+         firebase installation setup
+	|
+ng add @angular/fire	
+
+          open app.module.ts
+	|
+import { AngularFireModule } from '@angular/fire/compat';
+import { environment } from 'src/environments/environment';
+
+imports:[
+ AngularFireModule.initializeApp(environment.firebaseConfig),
+]
